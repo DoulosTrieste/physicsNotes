@@ -2,8 +2,80 @@
  
 \begin{document}
 	\section{Physical Quantities, Units and Measurement}
-		\subsection*{What is Physics?}
-			Measurement is a tool that we use in physics a lot. However, it is difficult to get fully accurate measurements due to how well we can create instruments. However we can try to minimise these errors by practising proper measurement techniques. We use measurements to determine physical quantities, and these quantities are communicated with units.
+		\subsection*{Preamble}
+		\fbox{\parbox{\linewidth}{Measurement is a tool that we use in physics a lot. It is difficult to get fully accurate measurements due to how well we can create instruments, control random errors, and other factors. Nonetheless we try to minimise these errors by practising proper measurement techniques. We use measurements to determine physical quantities, and these quantities are communicated with units.}}
 			
 		\subsection{Physical Quantities}
+		\pdef{Physical Quantity}{A physical quantity is a quantity consisting of a \textbf{numerical magnitude} and a \textbf{unit}.}
+		
+		The numerical magnitude tells us the size of the quantity, and the unit tells us what the quantity is expressed in.
+		
+		Physical quantities can be either a \textbf{basic quantity}):
+		\begin{center}
+			\begin{tabular}{cccc}
+				\hline \hline
+				\multicolumn{2}{c}{Physical Quantity} & \multicolumn{2}{c}{SI Unit} \\
+				\hline 
+				mass & $m$ & kilogram & kg \\
+				time & $t$ & second & s \\
+				temperature & $T$ & kelvin & K \\
+				length & $l$ & metre & m \\
+				current & $I$ & ampere & A \\
+				amount & $n$ & mole & mol \\
+				\hline \hline
+			\end{tabular}
+		\end{center}
+		or a \textbf{derived quantity}, which are derived from basic quantities. 
+		
+			\subsubsection{Dimensional Analysis}
+			This is not explicitly taught in syllabus, but it is a very important tool to help you if you are stuck in a problem. 
+			
+			The main idea is to treat units like \textbf{algebraic terms}, and manipulate them accordingly to get the right derived unit for the quantity. Usually, a single unit is written in square brackets [ ] to avoid confusion with units with multiple letters (\textit{e.g.} [\si{\mole}] and [\si{\meter}]).
+			
+		\subsection{Prefixes, Standard Form, and Order of Magnitude}
+		If a number is too large or too small, it will get very annoying to write a lot of digits. That is what prefixes and standard form aim to solve. The former will be written with the unit, while the latter will be written with the numerical magnitude.
+		
+		A number is expressed in standard form as
+		\[ 
+			\underbrace{A}_{\text{base}} \times \underbrace{10^N}_{\text{factor}} 
+		\]
+		where \(1 \leqslant A < 10\) and \(N \in \mathbb{Z}\).
+		
+		A unit can be rewritten with any of these prefixes preceding its symbol:
+		\begin{center}
+		\begin{tabular}{cccc}
+			\hline \hline
+			Prefix & Symbol & Factor & Order of Magnitude \\  
+			\hline
+			tera & \si{\tera} & \(10^{12}\) & 12 \\  
+			giga & \si{\giga} & \(10^9\) & 9 \\  
+			mega & \si{\mega} & \(10^6\) & 6 \\  
+			kilo & \si{\kilo} & \(10^3\) & 3 \\  
+			deci & \si{\deci} & \(10^{-1}\) & \(-1\) \\  
+			centi & \si{\centi} & \(10^{-2}\) & \(-2\) \\  
+			milli & \si{\milli} & \(10^{-3}\) & \(-3\) \\  
+			micro & \si{\micro} & \(10^{-6}\) & \(-6\) \\  
+			nano & \si{\nano} & \(10^{-9}\) & \(-9\) \\  
+			pico & \si{\pico} & \(10^{-12}\) & \(-12\) \\ 
+			\hline \hline
+		\end{tabular} 
+		\end{center}
+	
+		\subsection{Scalars and Vectors}
+		
+		\pdef{Scalar Quantity}{A scalar quantity has a magnitude, unit, but \textbf{no} direction.}
+		\pdef{Vector Quantity}{A vector quantity has a magnitude, unit, and direction.}
+		
+		\subsection{Vector Addition}
+		Vectors can be added by using the trigonometric method or the graphical method.
+		\peqn{Magnitude of Vectors}{
+		The magnitude of a vector \(\vec{v}\) with components \(\vec{v_x}\) and \(\vec{v_y}\) is given by}{\left|\vec{v}\right| = \sqrt{\left|\vec{v_x}\right|^2 + \left|\vec{v_y}\right|^2}}
+		
+		\subsection{Measurement}
+		\subsubsection{Precision and Accuracy}
+		
+		\textbf{Precision} is how well a set of readings of the same physical quantity agree with each other.
+		
+		\textbf{Accuracy} is how close the set of readings are to the true value.
+		
 \end{document}

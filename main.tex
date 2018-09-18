@@ -1,12 +1,65 @@
 \documentclass[a4paper,10pt]{article}
 
+\usepackage[margin=1in]{geometry}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
 \usepackage{subfiles}
+\usepackage{tcolorbox}
+\usepackage{siunitx}
+\usepackage{circuitikz}
+\usepackage{pgfplots}
+\usepackage{cancel}
+\usepackage{xifthen}
+\usepackage{float}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{unicode-math}
+
+\setmainfont{STIX Two Text}
+\setmathfont{STIX Two Math}
+
+\tcbuselibrary{skins}
+\tcbuselibrary{breakable}
 
 \title{Physics Notes}
 \author{Ng Kang Zhe}
+
+\setlength{\parindent}{0em}
+
+\newtcolorbox[auto counter,number within=section]{physdef}[2][]{
+	sharp corners=all,
+	breakable=true,
+	top = 0.5mm, bottom = 0.5mm,
+	left = 0.5mm, right = 0.5mm,
+	colback = white,
+	title=Definition~\thetcbcounter: #2,
+	#1,
+}
+
+\newcommand\pdef[2]{\begin{physdef}{#1} #2 \end{physdef}}
+
+\newtcolorbox[auto counter,number within=section]{physeqn}[2][]{
+	sharp corners=all,
+	breakable=true,
+	top = 0.5mm, bottom = 0.5mm,
+	left = 0.5mm, right = 0.5mm,
+	colback = white,
+	title=Equation~\thetcbcounter: #2,
+	#1,
+}
+
+\newcommand\peqn[4][]{
+	\begin{physeqn}{#2}
+		#3
+		\begin{equation*}
+		\ifthenelse{\equal{#1}{}}{}{\begin{#1}}
+		#4
+		\ifthenelse{\equal{#1}{}}{}{\end{#1}}
+		\end{equation*}
+		
+	\end{physeqn}
+}
 
 \begin{document}
 
@@ -18,6 +71,10 @@
 	Use these notes with caution.
 \end{abstract}
 
+\newpage
+
+\begin{multicols*}{2}
 \subfile{content/chapter1}
+\end{multicols*}
 
 \end{document}
