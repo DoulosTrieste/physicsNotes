@@ -2,8 +2,9 @@
  
 \begin{document}
 	\section{Physical Quantities, Units and Measurement}
-		\subsection*{Preamble}
-		\fbox{\parbox{\linewidth}{Measurement is a tool that we use in physics a lot. It is difficult to get fully accurate measurements due to how well we can create instruments, control random errors, and other factors. Nonetheless we try to minimise these errors by practising proper measurement techniques. We use measurements to determine physical quantities, and these quantities are communicated with units.}}
+		\begin{preamb}
+		Measurement is a tool that we use in physics a lot. It is difficult to get fully accurate measurements due to how well we can create instruments, control random errors, and other factors. Nonetheless we try to minimise these errors by practising proper measurement techniques. We use measurements to determine physical quantities, and these quantities are communicated with units.
+		\end{preamb}
 			
 		\subsection{Physical Quantities}
 		\pdef{Physical Quantity}{A physical quantity is a quantity consisting of a \textbf{numerical magnitude} and a \textbf{unit}.}
@@ -77,5 +78,34 @@
 		\textbf{Precision} is how well a set of readings of the same physical quantity agree with each other.
 		
 		\textbf{Accuracy} is how close the set of readings are to the true value.
+		
+		\subsubsection{Measurement of Lengths}
+		Parallax error should be avoided when measuring lengths. In the case of a measuring tape or a metre rule, the object needs to be \textbf{in contact} with the measuring instrument.
+		
+		\subsubsection*{Vernier Callipers}
+		Accuracy: \(\pm \SI{0.01}{\centi\meter}\)
+		\begin{enumerate}
+			\item Check for zero error. This error is \(\Delta x\).
+			\item Place the object to be measured at the appropriate measurement site (internal jaws, external jaws, or tail).
+			\item Slide the vernier scale so that the jaws or tail measure the entirety of the object.
+			\item On the main scale (with \SI{0.1}{\centi\meter} subdivisions), take the reading that is on or left of the `0' mark of the vernier scale, \(x_\mathrm{main}\).
+			\item On the vernier scale (with \SI{0.01}{\centi\meter} subdivisions), read the mark that coincides with a mark on the main scale,\(x_\mathrm{vernier}\).
+			\item The measurement is the sum of the reading on the main scale and vernier scale, and then subtracting the zero error, \(x-\Delta x\) .
+		\end{enumerate}
+	
+		\subsubsection*{Micrometer Screw Gauge}
+		Accuracy: \(\pm \SI{0.001}{\centi\meter}\)
+		\begin{enumerate}
+			\item Check for zero error. This error is \(\Delta x\).
+			\item Place the object in between the anvil and the spindle.
+			\item Close the jaws on the micrometer screw gauge until the object is in contact. Turn  the ratchet until a `click' sound is heard.
+			\item On the datum line (with \SI{0.5}{\milli\meter} subdivisions), take the reading that is on the left of the circular scale, \(x_\mathrm{datum}\).
+			\item On the circular scale (with \SI{0.01}{\milli\meter} subdivisions), take the reading that coincides with the datum line, \(x_\mathrm{circular}\).
+			\item The measurement is the sum of the reading on the datum line and circular scale, and then subtracting the zero error, \(x-\Delta x\) .
+		\end{enumerate}
+	
+		\subsubsection{Simple Pendulum}
+		A simple pendulum is one on the premises that the string is massless, and the bob is a point mass.
+		\peqn{Period of Simple Pendulum}{Using the approximation \(\cos \theta \approx 1 - \frac{\theta^2}{2}\), for a reasonably small \(\theta\) (angle of release),}{T = 2\pi \sqrt{\frac{L}{g}}}
 		
 \end{document}
