@@ -70,7 +70,25 @@
 		\subsection{Vector Addition}
 		Vectors can be added by using the trigonometric method or the graphical method.
 		\peqn{Magnitude of Vectors}{
-		The magnitude of a vector \(\vec{v}\) with components \(\vec{v_x}\) and \(\vec{v_y}\) is given by}{\left|\vec{v}\right| = \sqrt{\left|\vec{v_x}\right|^2 + \left|\vec{v_y}\right|^2}}
+		The magnitude of a vector \(\vec{\mathbf{v}}\) with components \(\vec{v_x}\) and \(\vec{v_y}\) is given by}{\left|\vec{v}\right| = \sqrt{\left|\vec{v_x}\right|^2 + \left|\vec{v_y}\right|^2}}
+	
+		\begin{center}
+			\begin{tikzpicture}
+				\draw [line width=0.5mm, ->] (0,0) -- (2,2) node[anchor=north west, pos=0.5]{\(\vec{\mathbf{v}}\)};
+				\draw [line width=0.25mm, dashed, ->] (0,0) -- (2,0) node[anchor=north, pos=0.5] {\(\vec{v_x}\)};
+				\draw [line width=0.25mm, dashed, ->] (0,0) -- (0,2) node[anchor=east, pos=0.5] {\(\vec{v_y}\)};
+			\end{tikzpicture}
+		\end{center}
+		\begin{center}
+			\begin{tikzpicture}
+				\draw [line width=0.5mm, ->] (0,0) -- (1,2) node[anchor=south east, pos=0.5] {\(\vec{\mathbf{u}}\)};
+				\draw [line width=0.2mm, dotted, ->] (2,-3) -- (3,-1) node[anchor=north west, pos=0.5] {translated \(\vec{\mathbf{u}}\)};
+				\draw [line width=0.5mm, ->] (0,0) -- (2,-3) node[anchor=north east, pos=0.5] {\(\vec{\mathbf{v}}\)};
+				\draw [line width=0.2mm, dotted, ->] (1,2) -- (3,-1) node[anchor=south west, pos=0.5] {translated \(\vec{\mathbf{v}}\)};
+				\draw [line width=0.5mm, ->>] (0,0) -- (1.5,-0.5) node[anchor=north] {\(\vec{\mathbf{u}} + \vec{\mathbf{v}}\)};
+				\draw [line width=0.5mm] (1.5,-0.5) -- (3,-1);
+			\end{tikzpicture}
+		\end{center}
 		
 		\subsection{Measurement}
 		\subsubsection{Precision and Accuracy}
