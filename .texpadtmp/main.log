@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  7 OCT 2018 16:13
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  7 OCT 2018 16:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -792,387 +792,42 @@ Package: tabularx 2016/02/03 v2.11 `tabularx' package (DPC)
 \TX@delta=\dimen309
 \TX@cols=\count192
 \TX@ftn=\toks42
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/unicode-math/unicode-math.sty
-Package: unicode-math 2015/09/24 v0.8c Unicode maths in XeLaTeX and LuaLaTeX
-
-(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/ucharcat/ucharcat.sty
-Package: ucharcat 2015/11/19 v0.03 ucharcat for luaLaTeX (DPC)
-) (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec.sty
-Package: fontspec 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
- (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
-Package: fontspec-xetex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTeX
-\l_fontspec_script_int=\count193
-\l_fontspec_language_int=\count194
-\l_fontspec_strnum_int=\count195
-\l__fontspec_tmpa_dim=\dimen310
-\l__fontspec_tmpb_dim=\dimen311
-\l__fontspec_tmpc_dim=\dimen312
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
- (/usr/local/texlive/2016/texmf-dist/tex/latex/euenc/eu1enc.def
-File: eu1enc.def 2010/05/27 v0.1h Experimental Unicode font encodings
-)
-LaTeX Font Info:    Try loading font information for EU1+lmr on input line 105.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/euenc/eu1lmr.fd
-File: eu1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)) (/usr/local/texlive/2016/texmf-dist/tex/xelatex/xunicode/xunicode.sty
-File: xunicode.sty 2011/09/09 v0.981 provides access to latin accents and many other characters in Unicode lower plane
- (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3enc.def
-File: t3enc.def 2001/12/31 T3 encoding
-LaTeX Font Info:    Try loading font information for EU1+lmss on input line 357.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/euenc/eu1lmss.fd
-File: eu1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-))
-\tipaTiiicode=\count196
-\tipasavetokens=\toks43
-\tipachecktokens=\toks44
-)
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \__fontspec_post_arg:w with sig. 'mmO{}' on line 353.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \fontspec with sig. 'om' on line 355.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmainfont with sig. 'om' on line 365.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setsansfont with sig. 'om' on line 375.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmonofont with sig. 'om' on line 385.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathrm with sig. 'om' on line 399.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setboldmathrm with sig. 'om' on line 407.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathsf with sig. 'om' on line 415.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathtt with sig. 'om' on line 423.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newfontfamily with sig. 'mom' on line 437.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newfontface with sig. 'mom' on line 453.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \defaultfontfeatures with sig. 't+om' on line 467.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \addfontfeatures with sig. 'm' on line 529.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newfontfeature with sig. 'mm' on line 540.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newAATfeature with sig. 'mmmm' on line 548.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newopentypefeature with sig. 'mmm' on line 556.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \aliasfontfeature with sig. 'mm' on line 577.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \aliasfontfeatureoption with sig. 'mmm' on line 586.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newfontscript with sig. 'mm' on line 590.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \newfontlanguage with sig. 'mm' on line 594.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \DeclareFontsExtensions with sig. 'm' on line 599.
-.................................................
-\l__fontspec_tmp_int=\count197
- (/usr/local/texlive/2016/texmf-dist/tex/latex/fontspec/fontspec.cfg)
-LaTeX Info: Redefining \itshape on input line 2705.
-LaTeX Info: Redefining \slshape on input line 2710.
-LaTeX Info: Redefining \scshape on input line 2715.
-LaTeX Info: Redefining \upshape on input line 2720.
-\l__fontspec_em_int=\count198
-\l__fontspec_emdef_int=\count199
-LaTeX Info: Redefining \em on input line 2736.
-LaTeX Info: Redefining \emph on input line 2742.
-LaTeX Info: Redefining \- on input line 2746.
-.................................................
-. LaTeX info: "xparse/redefine-command"
-. 
-. Redefining command \oldstylenums with sig. 'm' on line 2841.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \liningnums with sig. 'm' on line 2845.
-.................................................
-)) (/usr/local/texlive/2016/texmf-dist/tex/latex/base/fix-cm.sty
-Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
- (/usr/local/texlive/2016/texmf-dist/tex/latex/base/ts1enc.def
-File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
-)) (/usr/local/texlive/2016/texmf-dist/tex/latex/filehook/filehook.sty
-Package: filehook 2011/10/12 v0.5d Hooks for input files
-)
-\g__um_fam_int=\count266
-\g__um_primekern_muskip=\muskip17
-\l__um_primecount_int=\count267
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \unimathsetup with sig. 'm' on line 168.
-.................................................
- (/usr/local/texlive/2016/texmf-dist/tex/latex/unicode-math/unicode-math-xetex.sty
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathfontface with sig. 'mO{}mO{}' on line 165.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setoperatorfont with sig. 'm' on line 169.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \setmathfont with sig. 'O{}mO{}' on line 278.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \addnolimits with sig. 'm' on line 520.
-.................................................
-.................................................
-. LaTeX info: "xparse/define-command"
-. 
-. Defining command \removenolimits with sig. 'm' on line 524.
-.................................................
- (/usr/local/texlive/2016/texmf-dist/tex/latex/unicode-math/unicode-math-table.tex)
-.................................................
-. unicode-math info: "patch-macro"
-. 
-. I'm going to patch macro \subarray.
-.................................................
-.................................................
-. unicode-math info: "patch-macro"
-. 
-. I'm going to patch macro \r@@t.
-.................................................
-))
-\g__fontspec_family_STIXTwoText_int=\count268
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STIXTwoText(0)' created for font 'STIX Two Text' with options
-. [Ligatures=TeX].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.: <->"STIX Two
-. Text/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"STIX Two
-. Text/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"- 'bold' (bx/n)
-. with NFSS spec.: <->"STIX Two
-. Text/B/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"STIX Two
-. Text/B/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"- 'italic'
-. (m/it) with NFSS spec.: <->"STIX Two
-. Text/I/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"STIX Two
-. Text/I/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"- 'bold italic'
-. (bx/it) with NFSS spec.: <->"STIX Two
-. Text/BI/OT:script=latn;language=DFLT;mapping=tex-text;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"STIX Two
-. Text/BI/OT:script=latn;language=DFLT;mapping=tex-text;+smcp;"
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STIXTwoText(1)' created for font 'STIX Two Text' with options
-. [].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.: <->"STIX Two
-. Text/OT:script=latn;language=DFLT;"
-. - 'small caps'  (m/sc) with NFSS spec.: <->"STIX Two
-. Text/OT:script=latn;language=DFLT;+smcp;"- 'bold' (bx/n) with NFSS spec.:
-. <->"STIX Two Text/B/OT:script=latn;language=DFLT;"
-. - 'bold small caps'  (bx/sc) with NFSS spec.: <->"STIX Two
-. Text/B/OT:script=latn;language=DFLT;+smcp;"- 'italic' (m/it) with NFSS
-. spec.: <->"STIX Two Text/I/OT:script=latn;language=DFLT;"
-. - 'italic small caps'  (m/itsc) with NFSS spec.: <->"STIX Two
-. Text/I/OT:script=latn;language=DFLT;+smcp;"- 'bold italic' (bx/it) with NFSS
-. spec.: <->"STIX Two Text/BI/OT:script=latn;language=DFLT;"
-. - 'bold italic small caps'  (bx/itsc) with NFSS spec.: <->"STIX Two
-. Text/BI/OT:script=latn;language=DFLT;+smcp;"
-.................................................
-LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/STIXTwoText(1)/m/n on input line 20.
-LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> EU1/STIXTwoText(1)/m/it on input line 20.
-LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> EU1/STIXTwoText(1)/bx/n on input line 20.
-\g__fontspec_family_STIXTwoMath_int=\count269
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STIX Two Math/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STIXTwoMath(0)' created for font 'STIX Two Math' with options
-. [BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Size=10-},{Size=7-10,Font=STIX
-. Two Math,Style=MathScript},{Size=-7,Font=STIX Two
-. Math,Style=MathScriptScript}}].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.: <10->"STIX Two
-. Math/OT:script=math;language=DFLT;"<7-10>"STIX Two
-. Math/OT:script=math;language=DFLT;+ssty=0;"<-7>"STIX Two
-. Math/OT:script=math;language=DFLT;+ssty=1;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-.................................................
-LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `normal' on input line 21.
+) (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> EU1/STIXTwoMath(0)/m/n on input line 21.
-LaTeX Font Info:    Encoding `OT1' has changed to `EU1' for symbol font
-(Font)              `operators' in the math version `bold' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> EU1/STIXTwoMath(0)/bx/n on input line 21.
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STIX Two Math/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STIXTwoMath(1)' created for font 'STIX Two Math' with options
-. [BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Size=10-},{Size=7-10,Font=STIX
-. Two Math,Style=MathScript},{Size=-7,Font=STIX Two
-. Math,Style=MathScriptScript}},Scale=1.00001,FontAdjustment={\fontdimen
-. 8\font =6.4pt\relax \relax \fontdimen 9\font =5.85pt\relax \relax \fontdimen
-. 10\font =4.7pt\relax \relax \fontdimen 11\font =6.4pt\relax \relax
-. \fontdimen 12\font =5.85pt\relax \relax \fontdimen 13\font =3.6pt\relax
-. \relax \fontdimen 14\font =3.6pt\relax \relax \fontdimen 15\font
-. =2.52pt\relax \relax \fontdimen 16\font =2.1pt\relax \relax \fontdimen
-. 17\font =2.1pt\relax \relax \fontdimen 18\font =2.3pt\relax \relax
-. \fontdimen 19\font =1.6pt\relax \relax \fontdimen 20\font =0pt\relax
-. \fontdimen 21\font =0pt\relax \fontdimen 22\font =2.58pt\relax \relax }].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.: <10->s*[1.00001]"STIX Two
-. Math/OT:script=math;language=DFLT;"<7-10>s*[1.00001]"STIX Two
-. Math/OT:script=math;language=DFLT;+ssty=0;"<-7>s*[1.00001]"STIX Two
-. Math/OT:script=math;language=DFLT;+ssty=1;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. and font adjustment code:
-. \fontdimen 8\font =6.4pt\relax \relax \fontdimen 9\font =5.85pt\relax \relax
-. \fontdimen 10\font =4.7pt\relax \relax \fontdimen 11\font =6.4pt\relax
-. \relax \fontdimen 12\font =5.85pt\relax \relax \fontdimen 13\font
-. =3.6pt\relax \relax \fontdimen 14\font =3.6pt\relax \relax \fontdimen
-. 15\font =2.52pt\relax \relax \fontdimen 16\font =2.1pt\relax \relax
-. \fontdimen 17\font =2.1pt\relax \relax \fontdimen 18\font =2.3pt\relax
-. \relax \fontdimen 19\font =1.6pt\relax \relax \fontdimen 20\font =0pt\relax
-. \fontdimen 21\font =0pt\relax \fontdimen 22\font =2.58pt\relax \relax 
-.................................................
-LaTeX Font Info:    Encoding `OMS' has changed to `EU1' for symbol font
-(Font)              `symbols' in the math version `normal' on input line 21.
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
 LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
-(Font)                  OMS/cmsy/m/n --> EU1/STIXTwoMath(1)/m/n on input line 21.
-LaTeX Font Info:    Encoding `OMS' has changed to `EU1' for symbol font
-(Font)              `symbols' in the math version `bold' on input line 21.
-LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
-(Font)                  OMS/cmsy/b/n --> EU1/STIXTwoMath(1)/bx/n on input line 21.
-.................................................
-. fontspec info: "no-font-shape"
-. 
-. Could not resolve font STIX Two Math/B (it probably doesn't exist).
-.................................................
-.................................................
-. fontspec info: "defining-font"
-. 
-. Font family 'STIXTwoMath(2)' created for font 'STIX Two Math' with options
-. [BoldItalicFont={},ItalicFont={},Script=Math,SizeFeatures={{Size=10-},{Size=7-10,Font=STIX
-. Two Math,Style=MathScript},{Size=-7,Font=STIX Two
-. Math,Style=MathScriptScript}},Scale=0.99999,FontAdjustment={\fontdimen
-. 8\font =0.68pt\relax \relax \fontdimen 9\font =1.35pt\relax \relax
-. \fontdimen 10\font =1.35pt\relax \relax \fontdimen 11\font =3.0pt\relax
-. \relax \fontdimen 12\font =6.7pt\relax \relax \fontdimen 13\font =0pt\relax
-. }].
-. 
-. This font family consists of the following NFSS series/shapes:
-. - 'normal' (m/n) with NFSS spec.: <10->s*[0.99999]"STIX Two
-. Math/OT:script=math;language=DFLT;"<7-10>s*[0.99999]"STIX Two
-. Math/OT:script=math;language=DFLT;+ssty=0;"<-7>s*[0.99999]"STIX Two
-. Math/OT:script=math;language=DFLT;+ssty=1;"
-. - 'small caps'  (m/sc) with NFSS spec.: 
-. and font adjustment code:
-. \fontdimen 8\font =0.68pt\relax \relax \fontdimen 9\font =1.35pt\relax
-. \relax \fontdimen 10\font =1.35pt\relax \relax \fontdimen 11\font
-. =3.0pt\relax \relax \fontdimen 12\font =6.7pt\relax \relax \fontdimen
-. 13\font =0pt\relax 
-.................................................
-LaTeX Font Info:    Encoding `OMX' has changed to `EU1' for symbol font
-(Font)              `largesymbols' in the math version `normal' on input line 21.
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
-(Font)                  OMX/cmex/m/n --> EU1/STIXTwoMath(2)/m/n on input line 21.
-LaTeX Font Info:    Encoding `OMX' has changed to `EU1' for symbol font
-(Font)              `largesymbols' in the math version `bold' on input line 21.
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
-(Font)                  OMX/cmex/m/n --> EU1/STIXTwoMath(2)/bx/n on input line 21.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbskins.code.tex
 Library (tcolorbox): 'tcbskins.code.tex' version '3.91'
 \tcb@waterbox=\box99
 (/usr/local/texlive/2016/texmf-dist/tex/latex/tcolorbox/tcbskinsjigsaw.code.tex
@@ -1185,36 +840,29 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '3.91'
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillbetween.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetween.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
-\pgf@intersect@solutions=\count270
+\pgf@intersect@solutions=\count193
 )) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.softclip.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.code.tex))) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decorations.softclip.code.tex))
-\c@tcb@cnt@physdef=\count271
-\c@tcb@cnt@physeqn=\count272
+\c@tcb@cnt@physdef=\count194
+\c@tcb@cnt@physeqn=\count195
  (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 77.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 77.
- (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
-File: t3cmr.fd 2001/12/31 TIPA font definitions
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
+LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 76.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmss.fd
+File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    ... okay on input line 77.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
-LaTeX Font Info:    ... okay on input line 77.
-
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
@@ -1256,48 +904,57 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.13} (current compat level: 1.5.1).
 
-\c__siunitx_mathsf_int=\count273
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 77.
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 7.01247pt on input line 77.
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 5.5051pt on input line 77.
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 77.
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 7.01224pt on input line 77.
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 5.50493pt on input line 77.
-LaTeX Font Info:    Try loading font information for U+msa on input line 77.
-(/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
+\c__siunitx_mathsf_int=\count196
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 76.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 76.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 76.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 76.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 76.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 76.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 76.
+LaTeX Font Info:    Try loading font information for U+msa on input line 76.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 77.
+LaTeX Font Info:    Try loading font information for U+msb on input line 76.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count274
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 12.00018pt on input line 79.
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 79.
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 79.
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 11.99982pt on input line 79.
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 79.
-LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 79.
+\c__siunitx_mathtt_int=\count197
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 76.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmtt.fd
+File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 78.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 78.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 78.
  [1
 
 ] (./content/chapter01.tex
-Underfull \hbox (badness 6157) in paragraph at lines 101--102
-\EU1/STIXTwoText(0)/m/n/10 Parallax error should be avoided when measuring
- []
-
-[2]) (./content/chapter02.tex [3]
+LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 34.
+LaTeX Font Info:    Try loading font information for TS1+lmss on input line 58.
+ (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ts1lmss.fd
+File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+) [2]) (./content/chapter02.tex [3]
 Package pgfplots info on input line 73: fill between: found 'clip=true'. Preparing pgfplotsextra instruction with clip path for layer 'pre main'...
 Package pgfplots info on input line 74: fill between: activating layered graphics
 \pgf@layerbox@axis background=\box103
@@ -1317,81 +974,54 @@ Package pgfplots info on input line 74: fill between: activating layered graphic
 \pgf@layerbox@axis foreground=\box117
 \pgf@layerboxsaved@axis foreground=\box118
 Package pgfplots info on input line 74: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
-) (./content/chapter03.tex [4] [5]) (./content/chapter04.tex) (./content/chapter05.tex [6]
+) (./content/chapter03.tex [4] [5]) (./content/chapter04.tex) (./content/chapter05.tex
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\EU1/STIXTwoText(0)/m/n/10 Type of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-\EU1/STIXTwoText(0)/m/n/10 equilib-
+[]|\OT1/lmss/m/n/10 Type of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\EU1/STIXTwoText(0)/m/n/10 Centre of
+[]|\OT1/lmss/m/n/10 Centre of
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\EU1/STIXTwoText(0)/m/n/10 A line
+\OT1/lmss/m/n/10 con-tact
+ []
+
+
+Underfull \hbox (badness 7099) in paragraph at lines 39--39
+[]|\OT1/lmss/m/n/10 Return to
  []
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
-\EU1/STIXTwoText(0)/m/n/10 of contact
+[]|\OT1/lmss/m/n/10 Topple
  []
 
-
-Underfull \hbox (badness 7203) in paragraph at lines 39--39
-[]|\EU1/STIXTwoText(0)/m/n/10 Slight dis-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\EU1/STIXTwoText(0)/m/n/10 Return to
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-\EU1/STIXTwoText(0)/m/n/10 equilib-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\EU1/STIXTwoText(0)/m/n/10 Topple
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-[]|\EU1/STIXTwoText(0)/m/n/10 Stay in
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-\EU1/STIXTwoText(0)/m/n/10 new posi-
- []
-
-) (./content/chapter06.tex) (./content/chapter07.tex [7]) (./content/chapter08.tex [8]
+[6]) (./content/chapter06.tex) (./content/chapter07.tex [7]) (./content/chapter08.tex
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
-) (./content/chapter09.tex) (./content/chapter10.tex) (./content/chapter11.tex [9]
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-\EU1/STIXTwoText(0)/m/n/10 where $[][]$ is the specific latent heat of fu-
- []
+[8]) (./content/chapter09.tex
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 23.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 23.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 26--26
-\EU1/STIXTwoText(0)/m/n/10 sion/vaporisation, the heat energy required to
- []
+LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
+(Font)              using `OMS/cmsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 23.
 
-) [10] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux) ) 
+) (./content/chapter10.tex) (./content/chapter11.tex [9]) [10] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ ) 
 Here is how much of TeX's memory you used:
- 51236 strings out of 493591
- 1251412 string characters out of 6143547
- 1529704 words of memory out of 5000000
- 53904 multiletter control sequences out of 15000+600000
- 26725 words of font info for 194 fonts, out of 8000000 for 9000
+ 41489 strings out of 493591
+ 1068560 string characters out of 6143547
+ 1305307 words of memory out of 5000000
+ 44292 multiletter control sequences out of 15000+600000
+ 77893 words of font info for 71 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 75i,13n,111p,10378b,1956s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,13n,108p,10378b,1960s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (10 pages).

@@ -15,10 +15,9 @@
 \usepackage{xcolor}
 \usepackage{multicol}
 \usepackage{tabularx}
-\usepackage{unicode-math}
+\usepackage{lmodern}
 
-\setmainfont{STIX Two Text}
-\setmathfont{STIX Two Math}
+\renewcommand{\familydefault}{\sfdefault}
 
 \tcbuselibrary{skins}
 \tcbuselibrary{breakable}
@@ -85,7 +84,7 @@
 \end{abstract}
 
 \newpage
-
+{\fontfamily{lmss}\selectfont
 \begin{multicols*}{2}
 \subfile{content/chapter01}
 \subfile{content/chapter02}
@@ -99,5 +98,6 @@
 \subfile{content/chapter10}
 \subfile{content/chapter11}
 \end{multicols*}
+}
 
 \end{document}
