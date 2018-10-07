@@ -58,11 +58,19 @@
 			\begin{tikzpicture}
 			\pgfplotsset{ticks=none}
 			\begin{axis}[
-			axis lines = left,
-			xlabel = \(t\),
-			ylabel = \(v\)
+				axis lines = left,
+				xlabel = \(t\),
+				ylabel = \(v\)
 			]
-			\addplot [domain=0:10] {x^2};
+				\addplot [name path=x, domain=0:10] {0};
+				\addplot [domain=0:10] {3*x^2};
+				\addplot [name path=v, domain=0:5] {3*x^2} \closedcycle;
+				\addplot [
+        			fill=gray,
+        			fill opacity = 0.5,
+    			] fill between[
+        			of=x and v,
+    			];
 			\end{axis}
 			\end{tikzpicture}
 		\end{center}

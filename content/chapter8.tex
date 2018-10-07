@@ -24,13 +24,6 @@
 	
 	\peqn{Charles Law}{Charles Law states that the volume of a gas is directly proportional to its temperature. Mathematically,}{p \propto T}
 	
-	\peqn{Boyle's Law}{Boyle's law states that the pressure of a gas is inversely proportional to the volume of the gas. Mathematically,}{p \propto \frac{1}{V}}
-	
-	\peqn{Gay-Lussac's Law}{Gay-Lussac's Law states that the volume of a gas is directly proportional to its temperature. Mathematically,}{V \propto T}
-	
-	\peqn{Avogadro's Law}{Avogadro's law states that the amount of gas is directly proportional to the volume of the gas. Mathematically,}{n \propto V}
-	
-	Some graphs:
 		\begin{center}
 			\begin{tikzpicture}
 			\pgfplotsset{ticks=none}
@@ -45,20 +38,27 @@
 		\end{center}
 	
 	
+	\peqn{Boyle's Law}{Boyle's law states that the pressure of a gas is inversely proportional to the volume of the gas. Mathematically,}{p \propto \frac{1}{V}}
+	
 		\begin{center}
 			\begin{tikzpicture}
 			\pgfplotsset{ticks=none}
 			\begin{axis}[
 			axis lines = left,
 			xlabel = \(p\),
-			ylabel = \(V\)
+			ylabel = \(V\),
+			ymax = 10,
+			xmin = 0,
+			ymin = 0,
+			samples = 100
 			]
-			\addplot [domain=0:10] {1/x};
+			\addplot [domain=0:1] {1/x};
 			\end{axis}
 			\end{tikzpicture}
 		\end{center}
 		
-		
+	\peqn{Gay-Lussac's Law}{Gay-Lussac's Law states that the volume of a gas is directly proportional to its temperature. Mathematically,}{V \propto T}
+	
 		\begin{center}
 			\begin{tikzpicture}
 			\pgfplotsset{ticks=none}
@@ -71,5 +71,6 @@
 			\end{axis}
 			\end{tikzpicture}
 		\end{center}
-	
+
+	\peqn{Avogadro's Law}{Avogadro's law states that the amount of gas is directly proportional to the volume of the gas. Mathematically,}{n \propto V}
 \end{document}

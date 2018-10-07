@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  4 OCT 2018 22:26
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  7 OCT 2018 12:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1184,34 +1184,36 @@ Library (tcolorbox): 'tcbbreakable.code.tex' version '3.91'
 \tcb@totallowerbox=\box102
 ) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
-)
-\c@tcb@cnt@physdef=\count270
-\c@tcb@cnt@physeqn=\count271
+) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.fillbetween.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibraryfillbetween.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibraryintersections.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgf/libraries/pgflibraryintersections.code.tex
+\pgf@intersect@solutions=\count270
+)) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/tikzlibrarydecorations.softclip.code.tex (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/pgfcontrib/pgflibraryfillbetween.code.tex))) (/usr/local/texlive/2016/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplots.decorations.softclip.code.tex))
+\c@tcb@cnt@physdef=\count271
+\c@tcb@cnt@physeqn=\count272
  (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 76.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for EU1/lmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 77.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 77.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
+LaTeX Font Info:    ... okay on input line 77.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 77.
+LaTeX Font Info:    ... okay on input line 77.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -1254,40 +1256,40 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 )
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.13} (current compat level: 1.5.1).
 
-\c__siunitx_mathsf_int=\count272
+\c__siunitx_mathsf_int=\count273
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 10.00015pt on input line 76.
+(Font)              scaled to size 10.00015pt on input line 77.
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 7.01247pt on input line 76.
+(Font)              scaled to size 7.01247pt on input line 77.
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 5.5051pt on input line 76.
+(Font)              scaled to size 5.5051pt on input line 77.
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 9.99985pt on input line 76.
+(Font)              scaled to size 9.99985pt on input line 77.
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 7.01224pt on input line 76.
+(Font)              scaled to size 7.01224pt on input line 77.
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 5.50493pt on input line 76.
-LaTeX Font Info:    Try loading font information for U+msa on input line 76.
+(Font)              scaled to size 5.50493pt on input line 77.
+LaTeX Font Info:    Try loading font information for U+msa on input line 77.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 76.
+LaTeX Font Info:    Try loading font information for U+msb on input line 77.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\c__siunitx_mathtt_int=\count273
+\c__siunitx_mathtt_int=\count274
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 12.00018pt on input line 78.
+(Font)              scaled to size 12.00018pt on input line 79.
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 8.00012pt on input line 78.
+(Font)              scaled to size 8.00012pt on input line 79.
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(1)/m/n' will be
-(Font)              scaled to size 6.00009pt on input line 78.
+(Font)              scaled to size 6.00009pt on input line 79.
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 11.99982pt on input line 78.
+(Font)              scaled to size 11.99982pt on input line 79.
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 7.99988pt on input line 78.
+(Font)              scaled to size 7.99988pt on input line 79.
 LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
-(Font)              scaled to size 5.99991pt on input line 78.
+(Font)              scaled to size 5.99991pt on input line 79.
  [1
 
 ] (./content/chapter1.tex
@@ -1295,7 +1297,27 @@ Underfull \hbox (badness 6157) in paragraph at lines 101--102
 \EU1/STIXTwoText(0)/m/n/10 Parallax error should be avoided when measuring
  []
 
-[2]) (./content/chapter2.tex [3]) (./content/chapter3.tex [4] [5]) (./content/chapter4.tex) (./content/chapter5.tex [6]
+[2]) (./content/chapter2.tex [3]
+Package pgfplots info on input line 73: fill between: found 'clip=true'. Preparing pgfplotsextra instruction with clip path for layer 'pre main'...
+Package pgfplots info on input line 74: fill between: activating layered graphics
+\pgf@layerbox@axis background=\box103
+\pgf@layerboxsaved@axis background=\box104
+\pgf@layerbox@axis grid=\box105
+\pgf@layerboxsaved@axis grid=\box106
+\pgf@layerbox@axis ticks=\box107
+\pgf@layerboxsaved@axis ticks=\box108
+\pgf@layerbox@axis lines=\box109
+\pgf@layerboxsaved@axis lines=\box110
+\pgf@layerbox@axis tick labels=\box111
+\pgf@layerboxsaved@axis tick labels=\box112
+\pgf@layerbox@pre main=\box113
+\pgf@layerboxsaved@pre main=\box114
+\pgf@layerbox@axis descriptions=\box115
+\pgf@layerboxsaved@axis descriptions=\box116
+\pgf@layerbox@axis foreground=\box117
+\pgf@layerboxsaved@axis foreground=\box118
+Package pgfplots info on input line 74: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
+) (./content/chapter3.tex [4] [5]) (./content/chapter4.tex) (./content/chapter5.tex [6]
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []|\EU1/STIXTwoText(0)/m/n/10 Type of
  []
@@ -1352,14 +1374,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
 ) (./content/chapter6.tex) (./content/chapter7.tex [7]) (./content/chapter8.tex [8]
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
-) [9] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux) ) 
+) (./content/chapter9.tex) (./content/chapter10.tex
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\EU1/STIXTwoText(0)/m/n/10 where $[][]$ is the specific latent heat of fu-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 13--13
+\EU1/STIXTwoText(0)/m/n/10 sion/vaporisation, the heat energy required to
+ []
+
+) [9] [10] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux) ) 
 Here is how much of TeX's memory you used:
- 50697 strings out of 493591
- 1234799 string characters out of 6143547
- 1495729 words of memory out of 5000000
- 53396 multiletter control sequences out of 15000+600000
+ 51225 strings out of 493591
+ 1251204 string characters out of 6143547
+ 1528695 words of memory out of 5000000
+ 53896 multiletter control sequences out of 15000+600000
  26725 words of font info for 194 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 75i,13n,93p,10378b,1951s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,13n,111p,10378b,1956s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (9 pages).
+Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (10 pages).
