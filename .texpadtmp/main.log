@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  7 OCT 2018 12:56
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  7 OCT 2018 13:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1292,12 +1292,12 @@ LaTeX Font Info:    Font shape `EU1/STIXTwoMath(2)/m/n' will be
 (Font)              scaled to size 5.99991pt on input line 79.
  [1
 
-] (./content/chapter1.tex
+] (./content/chapter01.tex
 Underfull \hbox (badness 6157) in paragraph at lines 101--102
 \EU1/STIXTwoText(0)/m/n/10 Parallax error should be avoided when measuring
  []
 
-[2]) (./content/chapter2.tex [3]
+[2]) (./content/chapter02.tex [3]
 Package pgfplots info on input line 73: fill between: found 'clip=true'. Preparing pgfplotsextra instruction with clip path for layer 'pre main'...
 Package pgfplots info on input line 74: fill between: activating layered graphics
 \pgf@layerbox@axis background=\box103
@@ -1317,7 +1317,7 @@ Package pgfplots info on input line 74: fill between: activating layered graphic
 \pgf@layerbox@axis foreground=\box117
 \pgf@layerboxsaved@axis foreground=\box118
 Package pgfplots info on input line 74: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
-) (./content/chapter3.tex [4] [5]) (./content/chapter4.tex) (./content/chapter5.tex [6]
+) (./content/chapter03.tex [4] [5]) (./content/chapter04.tex) (./content/chapter05.tex [6]
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []|\EU1/STIXTwoText(0)/m/n/10 Type of
  []
@@ -1372,9 +1372,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 \EU1/STIXTwoText(0)/m/n/10 new posi-
  []
 
-) (./content/chapter6.tex) (./content/chapter7.tex [7]) (./content/chapter8.tex [8]
+) (./content/chapter06.tex) (./content/chapter07.tex [7]) (./content/chapter08.tex [8]
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
-) (./content/chapter9.tex) (./content/chapter10.tex
+) (./content/chapter09.tex) (./content/chapter10.tex
 Underfull \hbox (badness 10000) in paragraph at lines 13--13
 \EU1/STIXTwoText(0)/m/n/10 where $[][]$ is the specific latent heat of fu-
  []
@@ -1387,8 +1387,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--13
 ) [9] [10] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux) ) 
 Here is how much of TeX's memory you used:
  51225 strings out of 493591
- 1251204 string characters out of 6143547
- 1528695 words of memory out of 5000000
+ 1251231 string characters out of 6143547
+ 1528704 words of memory out of 5000000
  53896 multiletter control sequences out of 15000+600000
  26725 words of font info for 194 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
