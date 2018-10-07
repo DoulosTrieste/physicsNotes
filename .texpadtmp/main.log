@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  7 OCT 2018 13:08
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  7 OCT 2018 16:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1374,22 +1374,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 
 ) (./content/chapter06.tex) (./content/chapter07.tex [7]) (./content/chapter08.tex [8]
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
-) (./content/chapter09.tex) (./content/chapter10.tex
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
+) (./content/chapter09.tex) (./content/chapter10.tex) (./content/chapter11.tex [9]
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
 \EU1/STIXTwoText(0)/m/n/10 where $[][]$ is the specific latent heat of fu-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 13--13
+Underfull \hbox (badness 10000) in paragraph at lines 26--26
 \EU1/STIXTwoText(0)/m/n/10 sion/vaporisation, the heat energy required to
  []
 
-) [9] [10] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux) ) 
+) [10] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux) ) 
 Here is how much of TeX's memory you used:
- 51225 strings out of 493591
- 1251231 string characters out of 6143547
- 1528704 words of memory out of 5000000
- 53896 multiletter control sequences out of 15000+600000
+ 51236 strings out of 493591
+ 1251412 string characters out of 6143547
+ 1529704 words of memory out of 5000000
+ 53904 multiletter control sequences out of 15000+600000
  26725 words of font info for 194 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  75i,13n,111p,10378b,1956s stack positions out of 5000i,500n,10000p,200000b,80000s
