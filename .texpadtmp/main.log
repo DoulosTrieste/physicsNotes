@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  8 OCT 2018 11:05
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  8 OCT 2018 11:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -974,7 +974,7 @@ Package pgfplots info on input line 74: fill between: activating layered graphic
 \pgf@layerbox@axis foreground=\box117
 \pgf@layerboxsaved@axis foreground=\box118
 Package pgfplots info on input line 74: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
-) (./content/chapter03.tex [4] [5]) (./content/chapter04.tex) (./content/chapter05.tex
+) (./content/chapter03.tex [4] [5]) (./content/chapter04.tex) (./content/chapter05.tex [6]
 Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []|\OT1/lmss/m/n/10 Type of
  []
@@ -999,9 +999,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 39--39
 []|\OT1/lmss/m/n/10 Topple
  []
 
-[6]) (./content/chapter06.tex) (./content/chapter07.tex [7]) (./content/chapter08.tex
+) (./content/chapter06.tex) (./content/chapter07.tex [7]) (./content/chapter08.tex [8]
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
-[8]) (./content/chapter09.tex
+) (./content/chapter09.tex
 LaTeX Font Info:    Try loading font information for OMS+lmss on input line 23.
 LaTeX Font Info:    No file OMSlmss.fd. on input line 23.
 
@@ -1010,18 +1010,18 @@ LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 23.
 
-) (./content/chapter10.tex) (./content/chapter11.tex [9]) (./content/chapter12.tex [10]) (./content/chapter13.tex) [11] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
+) (./content/chapter10.tex) (./content/chapter11.tex [9]) (./content/chapter12.tex [10]) (./content/chapter13.tex [11]) [12] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 41537 strings out of 493591
- 1069390 string characters out of 6143547
- 1304307 words of memory out of 5000000
- 44334 multiletter control sequences out of 15000+600000
- 77893 words of font info for 71 fonts, out of 8000000 for 9000
+ 41540 strings out of 493591
+ 1069441 string characters out of 6143547
+ 1291211 words of memory out of 5000000
+ 44337 multiletter control sequences out of 15000+600000
+ 80608 words of font info for 72 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 72i,13n,108p,10378b,1960s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,13n,108p,10378b,1978s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (11 pages).
+Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (12 pages).
