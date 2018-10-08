@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  7 OCT 2018 16:33
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  8 OCT 2018 11:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1010,18 +1010,18 @@ LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 23.
 
-) (./content/chapter10.tex) (./content/chapter11.tex [9]) [10] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
+) (./content/chapter10.tex) (./content/chapter11.tex [9]) (./content/chapter12.tex [10]) (./content/chapter13.tex) [11] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 41489 strings out of 493591
- 1068560 string characters out of 6143547
- 1305307 words of memory out of 5000000
- 44292 multiletter control sequences out of 15000+600000
+ 41537 strings out of 493591
+ 1069390 string characters out of 6143547
+ 1304307 words of memory out of 5000000
+ 44334 multiletter control sequences out of 15000+600000
  77893 words of font info for 71 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  72i,13n,108p,10378b,1960s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (10 pages).
+Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (11 pages).

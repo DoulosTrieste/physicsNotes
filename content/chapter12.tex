@@ -1,0 +1,60 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+	\section{General Wave Properties}
+	\begin{preamb}
+		Waves are a fundamental method of describing the nature of matter and how it interacts with energy. In this chapter we will be covering general wave properties that would be helpful.
+	\end{preamb}
+	
+	\subsection{Definitions}
+	\pdef{Wave}{A wave is the transfer of energy without the transfer of matter.}
+	
+	\pdef{Transverse Wave}{A transverse wave is when the particles oscillate perpendicular to the direction of propagation.}
+	An example of a transverse wave is electromagnetic waves.
+	
+	\pdef{Longitudinal Wave}{A longitudinal wave is when the particles oscillate parallel to the direction of propagation.}
+	An example of a longitudinal wave is sound waves.
+	
+	\subsection{Parts of a Wave}
+	
+	\pdef{Wavelength}{The wavelength of a wave is the displacement between two successive in-phase points. It is usually represented by the Greek letter \(\lambda\). The SI unit for wavelength is the metre [\si{\meter}].}
+	
+	\pdef{Period}{The period of a wave is the time taken for a particle to complete one oscillation. It is usually represented by the letter \(T\). The SI unit for period is the second [\si{\second}].}
+	
+	\pdef{Frequency}{The frequency of a wave is the number of times a particle completes one oscillation in one second. It is usually represented by the letter \(f\). The SI unit for frequency is the hertz [\si{\hertz}].}
+	
+	\peqn{Period and Frequency}{Period and frequency are reciprocals of each other,}{f = \frac{1}{T} \Leftrightarrow T = \frac{1}{f}}
+	
+	\pdef{Amplitude}{The amplitude of a wave is the maximum displacement of a particle in a wave. It is usually represented by the letter \(A\). The most common unit for amplitude is the metre [\si{\meter}]; though keep in mind other physical quantities like voltage can exhibit periodic wave-like behaviour.}
+	
+	\subsubsection{Displacement-distance Graph}
+	This is also known as a snapshot graph.
+	\begin{center}
+		\begin{tikzpicture}
+			\draw [->] (0,-2.5) -- (0,2.5) node [anchor=east] {\(s\)};
+			\draw [->] (0,0) -- (5,0) node [anchor=north] {\(d\)};
+			\draw (0,0) sin (0.5,2) cos (1,0) sin (1.5,-2)cos (2,0) sin (2.5,2) node [anchor=south] {crest} cos (3,0) sin (3.5,-2) node [anchor=north west] {trough} cos (4,0) sin (4.5,2) cos (5,0);
+			\draw [->] (0.5,0) -- (0.5,2) node [pos=0.5, anchor=west] {\(A\)};
+			\draw [dotted] (1, -2.5) -- (1, 2.5);
+			\draw [dotted] (3, -2.5) -- (3, 2.5);
+			\draw [<->] (1, -2.25) -- (3, -2.25) node [pos=0.5, anchor=north] {\(\lambda\)};
+		\end{tikzpicture}
+	\end{center}
+	
+	\subsubsection{Displacement-time Graph}
+	This is also known as a history graph.
+	\begin{center}
+		\begin{tikzpicture}
+			\draw [->] (0,-2.5) -- (0,2.5) node [anchor=east] {\(s\)};
+			\draw [->] (0,0) -- (5,0) node [anchor=north] {\(t\)};
+			\draw (0,0) sin (0.5,2) cos (1,0) sin (1.5,-2)cos (2,0) sin (2.5,2) node [anchor=south] {crest} cos (3,0) sin (3.5,-2) node [anchor=north west] {trough} cos (4,0) sin (4.5,2) cos (5,0);
+			\draw [->] (0.5,0) -- (0.5,2) node [pos=0.5, anchor=west] {\(A\)};
+			\draw [dotted] (1, -2.5) -- (1, 2.5);
+			\draw [dotted] (3, -2.5) -- (3, 2.5);
+			\draw [<->] (1, -2.25) -- (3, -2.25) node [pos=0.5, anchor=north] {\(T\)};
+		\end{tikzpicture}
+	\end{center}
+	
+	\subsection{Wave Equation}
+	\peqn{Wave Equation}{For a wave with frequency \(f\) and wavelength \(\lambda\), the velocity \(v\) it is travelling at is equal to}{v = f\lambda}
+\end{document}
