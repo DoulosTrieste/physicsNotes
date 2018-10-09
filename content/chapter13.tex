@@ -16,10 +16,10 @@
 	
 	\begin{center}
 		\begin{tikzpicture}
-			\draw [color=gray] (-2,0) -- (2,0) node [anchor=north east] {surface};
-			\node [anchor=south] at (2,0) {normal};
+			\draw [color=gray] (-2,0) -- (2,0);
+			\node [anchor=north east] at (2,0) {surface};
 			\fill [color=gray, fill opacity=0.5] (-2,-1) -- (-2,0) -- (2,0) -- (2, -1);
-			\draw [dotted] (0,-1) -- (0,2);
+			\draw [dotted] (0,-1) -- (0,2) node [anchor=south] {normal};
 			\draw [->] (-2,2) -- (-1,1);
 			\draw (-1,1) -- (0,0);
 			\draw (0,0.5) arc (90:135:0.5) node [anchor=south] {\(\theta_1\)};
