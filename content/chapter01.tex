@@ -64,21 +64,27 @@
 	
 		\subsection{Scalars and Vectors}
 		
-		\pdef{Scalar Quantity}{A scalar quantity has a magnitude, unit, but \textbf{no} direction.}
-		\pdef{Vector Quantity}{A vector quantity has a magnitude, unit, and direction.}
+		\pdef{Scalar Quantity}{A scalar quantity has a magnitude but \textbf{no} direction.}
+		\pdef{Vector Quantity}{A vector quantity has a magnitude and direction.}
 		
-		\subsection{Vector Addition}
+		\subsection{Vector Analysis}
 		Vectors can be added by using the trigonometric method or the graphical method.
+		
+		\peqn{Components}{A two-dimensional vector \(\vec{\mathbf{v}}\) can be broken down into components \(\vec{v_x}\) and \(\vec{v_y}\), with magnitudes of}{\vec{\mathbf{v}}_x = \mathbf{v} \cos \theta, \, \vec{\mathbf{v}}_y = \mathbf{v} \sin \theta}
+		
 		\peqn{Magnitude of Vectors}{
-		The magnitude of a vector \(\vec{\mathbf{v}}\) with components \(\vec{v_x}\) and \(\vec{v_y}\) is given by}{\left|\vec{v}\right| = \sqrt{\left|\vec{v_x}\right|^2 + \left|\vec{v_y}\right|^2}}
+		The magnitude of a vector \(\vec{\mathbf{v}}\) with components \(\vec{\mathbf{v}}_x\) and \(\vec{\mathbf{v}}_y\) is given by}{\left|\vec{\mathbf{v}}\right| = \sqrt{\left|\vec{\mathbf{v}}_x\right|^2 + \left|\vec{\mathbf{v}}_y\right|^2}}
 	
 		\begin{center}
 			\begin{tikzpicture}
-				\draw [line width=0.5mm, ->] (0,0) -- (2,2) node[anchor=north west, pos=0.5]{\(\vec{\mathbf{v}}\)};
-				\draw [line width=0.25mm, dashed, ->] (0,0) -- (2,0) node[anchor=north, pos=0.5] {\(\vec{v_x}\)};
-				\draw [line width=0.25mm, dashed, ->] (0,0) -- (0,2) node[anchor=east, pos=0.5] {\(\vec{v_y}\)};
+				\draw [line width=0.5mm, ->] (0,0) -- (2,2) node[anchor=south east, pos=0.5]{\(\vec{\mathbf{v}}\)};
+				\draw [line width=0.25mm, dashed, ->] (0,0) -- (2,0) node[anchor=north, pos=0.5] {\(\vec{\mathbf{v}}_x\)};
+				\draw [line width=0.25mm, dashed, ->] (0,0) -- (0,2) node[anchor=east, pos=0.5] {\(\vec{\mathbf{v}}_y\)};
+				\draw (0.5,0) arc (0:45:0.5) node[pos=0.5, anchor=west] {\(\theta\)};
 			\end{tikzpicture}
 		\end{center}
+		
+		Observer that when you add the two components together, they form the vector itself.
 		\begin{center}
 			\begin{tikzpicture}
 				\draw [line width=0.5mm, ->] (0,0) -- (1,2) node[anchor=south east, pos=0.5] {\(\vec{\mathbf{u}}\)};
@@ -125,5 +131,17 @@
 		\subsubsection{Simple Pendulum}
 		A simple pendulum is one on the premises that the string is massless, and the bob is a point mass.
 		\peqn{Period of Simple Pendulum}{Using the approximation \(\cos \theta \approx 1 - \frac{\theta^2}{2}\), for a reasonably small \(\theta\) (angle of release),}{T = 2\pi \sqrt{\frac{L}{g}}}
+		
+		\begin{center}
+			\begin{tikzpicture}
+				\draw (0,5) -- (0,0);
+				\draw [dashed] (0,5) -- ++(250:5) node (x) {};
+				\draw [dashed] (0,5) -- ++(290:5) node (y) {};
+				\draw (0,4.25) arc (270:250:0.75) node[pos=0.5, anchor=north] {\(\theta\)};
+				\filldraw [color=black] (0,0) circle (0.25);
+				\filldraw [color=gray] (x) circle (0.25);
+				\filldraw [color=gray] (y) circle (0.25);;
+			\end{tikzpicture}
+		\end{center}
 		
 \end{document}

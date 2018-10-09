@@ -22,8 +22,10 @@
 \tcbuselibrary{skins}
 \tcbuselibrary{breakable}
 
-\pgfplotsset{width=0.75\linewidth,compat=1.5.1}
 \usetikzlibrary{arrows}
+\usetikzlibrary{calc}
+
+\pgfplotsset{width=0.75\linewidth,compat=1.5.1}
 \usepgfplotslibrary{fillbetween}
 
 \title{Physics Notes}
@@ -72,6 +74,8 @@
 		
 	\end{physeqn}
 }
+
+\def\centerarc[#1](#2)(#3:#4:#5) [draw options] (center) (initial angle:final angle:radius) { \draw[#1] ($(#2)+({#5*cos(#3)},{#5*sin(#3)})$) arc (#3:#4:#5); }
 
 \begin{document}
 

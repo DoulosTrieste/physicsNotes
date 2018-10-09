@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  8 OCT 2018 11:19
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  9 OCT 2018 21:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -847,19 +847,19 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
  (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 80.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -905,47 +905,47 @@ File: siunitx-abbreviations.cfg 2016/03/01 v2.6q siunitx: Abbreviated units
 Package pgfplots notification 'compat/show suggested version=true': you might benefit from \pgfplotsset{compat=1.13} (current compat level: 1.5.1).
 
 \c__siunitx_mathsf_int=\count196
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 80.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 76.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 80.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 76.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 80.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 76.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 80.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 76.
+(Font)              <10> on input line 80.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 76.
+(Font)              <7> on input line 80.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 76.
-LaTeX Font Info:    Try loading font information for U+msa on input line 76.
+(Font)              <5> on input line 80.
+LaTeX Font Info:    Try loading font information for U+msa on input line 80.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 76.
+LaTeX Font Info:    Try loading font information for U+msb on input line 80.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 \c__siunitx_mathtt_int=\count197
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 76.
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 80.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 78.
+(Font)              <12> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 78.
+(Font)              <8> on input line 82.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 78.
+(Font)              <6> on input line 82.
  [1
 
 ] (./content/chapter01.tex
@@ -954,7 +954,9 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
 LaTeX Font Info:    Try loading font information for TS1+lmss on input line 58.
  (/usr/local/texlive/2016/texmf-dist/tex/latex/lm/ts1lmss.fd
 File: ts1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [2]) (./content/chapter02.tex [3]
+) [2]
+Missing character: There is no ; in font nullfont!
+) (./content/chapter02.tex [3]
 Package pgfplots info on input line 73: fill between: found 'clip=true'. Preparing pgfplotsextra instruction with clip path for layer 'pre main'...
 Package pgfplots info on input line 74: fill between: activating layered graphics
 \pgf@layerbox@axis background=\box103
@@ -974,54 +976,54 @@ Package pgfplots info on input line 74: fill between: activating layered graphic
 \pgf@layerbox@axis foreground=\box117
 \pgf@layerboxsaved@axis foreground=\box118
 Package pgfplots info on input line 74: Setting layers 'axis background,axis grid,axis ticks,axis lines,axis tick labels,pre main,main,axis descriptions,axis foreground'...
-) (./content/chapter03.tex [4] [5]) (./content/chapter04.tex) (./content/chapter05.tex [6]
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+ [4]) (./content/chapter03.tex [5]) (./content/chapter04.tex) (./content/chapter05.tex [6]
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []|\OT1/lmss/m/n/10 Type of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []|\OT1/lmss/m/n/10 Centre of
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 \OT1/lmss/m/n/10 con-tact
  []
 
 
-Underfull \hbox (badness 7099) in paragraph at lines 39--39
+Underfull \hbox (badness 7099) in paragraph at lines 42--42
 []|\OT1/lmss/m/n/10 Return to
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
+Underfull \hbox (badness 10000) in paragraph at lines 42--42
 []|\OT1/lmss/m/n/10 Topple
  []
 
-) (./content/chapter06.tex) (./content/chapter07.tex [7]) (./content/chapter08.tex [8]
+) (./content/chapter06.tex [7]) (./content/chapter07.tex) (./content/chapter08.tex [8]
 NOTE: coordinate (0Y0.0e0],4Y0.0e0]) has been dropped because it is unbounded (in y). (see also unbounded coords=jump). 
-) (./content/chapter09.tex
-LaTeX Font Info:    Try loading font information for OMS+lmss on input line 23.
-LaTeX Font Info:    No file OMSlmss.fd. on input line 23.
+) (./content/chapter09.tex [9]
+LaTeX Font Info:    Try loading font information for OMS+lmss on input line 31.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 31.
 
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 23.
+(Font)              for symbol `textbullet' on input line 31.
 
-) (./content/chapter10.tex) (./content/chapter11.tex [9]) (./content/chapter12.tex [10]) (./content/chapter13.tex [11]) [12] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
+) (./content/chapter10.tex) (./content/chapter11.tex [10]) (./content/chapter12.tex [11]) (./content/chapter13.tex [12]) [13] (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 41540 strings out of 493591
- 1069441 string characters out of 6143547
- 1291211 words of memory out of 5000000
- 44337 multiletter control sequences out of 15000+600000
+ 41610 strings out of 493591
+ 1070774 string characters out of 6143547
+ 1296364 words of memory out of 5000000
+ 44407 multiletter control sequences out of 15000+600000
  80608 words of font info for 72 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 72i,13n,108p,10378b,1978s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 72i,13n,108p,10378b,1980s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (12 pages).
+Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (13 pages).
