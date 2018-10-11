@@ -1,6 +1,6 @@
 \documentclass[a4paper,10pt]{article}
 
-\usepackage[margin=2cm]{geometry}
+\usepackage[a4paper,margin=0.75in]{geometry}
 \usepackage{amsmath}
 \usepackage{amsfonts}
 \usepackage{amssymb}
@@ -15,10 +15,12 @@
 \usepackage{xcolor}
 \usepackage{multicol}
 \usepackage{tabularx}
-\usepackage{lmodern}
+%\usepackage[varg]{txfonts}
+\usepackage{unicode-math}
 \usepackage{hyperref}
 
-\renewcommand{\familydefault}{\sfdefault}
+\setmainfont{STIX Two Text}
+\setmathfont{STIX Two Math}
 
 \tcbuselibrary{skins}
 \tcbuselibrary{breakable}
@@ -93,13 +95,13 @@
 	
 	Use these notes with caution.
 \end{abstract}
-\begin{multicols*}{2}
+
+\begin{multicols}{2}
 \tableofcontents
-\end{multicols*}
+\end{multicols}
 
 \newpage
-{\fontfamily{lmss}\selectfont
-\begin{multicols*}{2}
+\begin{multicols}{2}
 \part{Measurement}
 \subfile{content/chapter01}
 
@@ -125,7 +127,8 @@
 
 \part{Electricity and Magnetism}
 \subfile{content/chapter16}
-\end{multicols*}
-}
+\subfile{content/chapter17}
+\subfile{content/chapter18}
+\end{multicols}
 
 \end{document}
