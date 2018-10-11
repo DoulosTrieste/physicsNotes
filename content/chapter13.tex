@@ -33,7 +33,36 @@
 
 	\pdef{Second Law of Reflection}{In reflection, the angle of incidence is equal to the angle of reflection. \[\theta_1 = \theta_2\]}
 	I have chosen to name the angles \(\theta_1\) and \(\theta_2\) due to the reversible nature of light. It does not matter which way the light goes; the angles will be preserved.
-
+	
+	\pdef{Virtual Image}{A virtual image is an image that cannot be cast on a screen.}
+	
+	The properties of an reflected image are:
+	\begin{itemize}
+		\item same shape and size
+		\item same distance from the mirror
+		\item laterally inverted
+		\item upright
+		\item virtual
+	\end{itemize}
+	
+	\begin{center}
+		\begin{tikzpicture}
+			\draw (0,2.25) -- (0,-3);
+			\fill [pattern=north east lines] (0,-3) node[anchor=north] {mirror} rectangle (0.1,2.25);
+			\draw [line width=0.5mm, ->] (-2,-1) -- (-3,1) node[anchor=east, pos=0.5] {object};
+			\draw [dashed, line width=0.5mm, ->] (2,-1) -- (3,1) node[anchor=west, pos=0.5] {image};
+			\draw [dashed, color=gray] (-2,-1) -- (2,-1);
+			\draw [dashed, color=gray] (-3,1) -- (3,1);
+			\fill (-2,-2.5) circle (0.05) node[anchor=north] {observer};
+			\draw [->] (-2,-1) -- (0,-1.75) node (a) {};
+			\draw [->] (-3,1) -- (0,-1.125) node (b) {};
+			\draw [<-] (-2,-2.5) -- (a);
+			\draw [<-] (-2,-2.5) -- (b);
+			\draw [dashed, ->] (2,-1) -- (a);
+			\draw [dashed, ->] (3,1) -- (b);
+		\end{tikzpicture}
+	\end{center}
+	
 	\subsection{Refraction}
 
 	\pdef{Refraction}{Refraction is the phenomenon where travels from one medium to another medium with different optical densities and slows down.}
@@ -69,7 +98,7 @@
 
 	\pdef{Critical Angle}{The critical angle is defined as the angle of incidence in an optically denser medium for which the angle of refraction in the optically less dense medium is \SI{90}{\degree}.}
 
-	Derivation for critical angle formula for any refractive indices, from equation 13.2,
+	Derivation for critical angle formula for any refractive indices considering \(n_1 > n_2\), from equation 13.2,
 	\begin{align*}
         n_1 \sin \theta_c &= n_2 \sin \SI{90}{\degree} \\
         \sin \theta_c &= \frac{n_2 (1)}{n_1} \\
@@ -87,11 +116,13 @@
 			\draw [->] (-1,-2) -- (-0.5,-1);
 			\draw [->] (-0.5,-1) -- (0,0) -- (1,0);
 			\draw (1,0) -- (2,0);
+			\draw (0,-0.5) arc (270:244:0.5) node [anchor=north, pos=0.5] {\(\theta_c\)};
+			\draw (0,0.1) -- (0.1,0.1) node [anchor=south west] {\(\theta_r = \SI{90}{\degree}\)} -- (0.1,0);
 		\end{tikzpicture}
 	\end{center}
 
 	\subsubsection{Lenses}
-<<<<<<< HEAD
+	
 	For the most part of this section, we will consider a thin lens.
 	
 	\begin{center}
@@ -112,10 +143,5 @@
 	
 	\pdef{Focal Length}{The focal length is the distance between the optical centre and the focal point.}
 	
-	\peqn{Thin Lens Equation}{(\textit{This is not in syllabus.}) For a thin lens, the focal length and the distances between the object and its image is }{\frac{1}{s} + \frac{1}{s'} = \frac{1}{f}} 
-=======
-	Lenses are optical instruments.
-	
-	\pdef{Focal Length}{The focal length is the distance from the focal point to the optical centre.}
->>>>>>> ea552f45e5e03d8c6c77f616051d69dade901d93
+	\peqn{Thin Lens Equation}{(\textit{This is not in syllabus.}) For a thin lens, the focal length and the distances between the object and its image is }{\frac{1}{s} + \frac{1}{s'} = \frac{1}{f}}
 \end{document}
