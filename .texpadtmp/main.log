@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  11 OCT 2018 11:39
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  11 OCT 2018 11:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1152,24 +1152,24 @@ LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
 (Font)              for symbol `textbullet' on input line 31.
 
-) (./content/chapter10.tex) (./content/chapter11.tex [10]) (./content/chapter12.tex [11]) (./content/chapter13.tex [12] [13]) (./content/chapter14.tex) (./content/chapter15.tex) [14]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 128.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 128.
+) (./content/chapter10.tex) (./content/chapter11.tex [10]) (./content/chapter12.tex [11]) (./content/chapter13.tex [12] [13]) (./content/chapter14.tex) (./content/chapter15.tex [14]) (./content/chapter16.tex) [15]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 128.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 128.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 131.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 48923 strings out of 493591
- 1177293 string characters out of 6143547
- 1415008 words of memory out of 5000000
- 51649 multiletter control sequences out of 15000+600000
+ 48932 strings out of 493591
+ 1177439 string characters out of 6143547
+ 1415011 words of memory out of 5000000
+ 51655 multiletter control sequences out of 15000+600000
  80968 words of font info for 73 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
  72i,13n,108p,10378b,2008s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (14 pages).
+Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (15 pages).
