@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  12 OCT 2018 01:20
+This is XeTeX, Version 3.14159265-2.6-0.99996 (TeX Live 2016) (preloaded format=xelatex 2017.3.5)  13 OCT 2018 00:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1505,7 +1505,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 26--26
 \EU1/STIXTwoText(0)/m/n/10 where $[][]$ is the specific latent heat of fu-
  []
 
-) (./content/chapter12.tex [11]) (./content/chapter13.tex [12] [13]) (./content/chapter14.tex) (./content/chapter15.tex [14]) (./content/chapter16.tex) (./content/chapter17.tex) (./content/chapter18.tex) [15]
+) (./content/chapter12.tex [11]) (./content/chapter13.tex [12] [13]) (./content/chapter14.tex) (./content/chapter15.tex [14]) (./content/chapter16.tex) (./content/chapter17.tex [15]) (./content/chapter18.tex) [16]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
  (/Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.aux)
@@ -1513,12 +1513,12 @@ Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 134.
 Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 134.
  ) 
 Here is how much of TeX's memory you used:
- 58229 strings out of 493591
- 1356342 string characters out of 6143547
- 1654947 words of memory out of 5000000
- 60810 multiletter control sequences out of 15000+600000
+ 58671 strings out of 493591
+ 1365898 string characters out of 6143547
+ 1657037 words of memory out of 5000000
+ 61252 multiletter control sequences out of 15000+600000
  27093 words of font info for 196 fonts, out of 8000000 for 9000
  1347 hyphenation exceptions out of 8191
- 75i,13n,111p,10378b,1994s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,13n,111p,10378b,2004s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (15 pages).
+Output written on /Users/kz3067/Documents/SST2018/physicsnotes/.texpadtmp/main.pdf (16 pages).
