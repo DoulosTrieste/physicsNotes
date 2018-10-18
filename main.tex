@@ -28,6 +28,7 @@
 \usetikzlibrary{arrows}
 \usetikzlibrary{calc}
 \usetikzlibrary{decorations.pathmorphing}
+\usetikzlibrary{shapes}
 \usetikzlibrary{positioning}
 \usetikzlibrary{decorations.pathreplacing}
 \usetikzlibrary{patterns}
@@ -41,7 +42,7 @@
 \author{Ng Kang Zhe}
 
 \setlength{\parindent}{0em}
-
+%
 \newtcolorbox{preamb}{
 	breakable=true,
 	top = 0.5mm, bottom = 0.5mm,
@@ -84,14 +85,14 @@
 	\end{physeqn}
 }
 
-\def\centerarc[#1](#2)(#3:#4:#5) [draw options] (center) (initial angle:final angle:radius) { \draw[#1] ($(#2)+({#5*cos(#3)},{#5*sin(#3)})$) arc (#3:#4:#5); }
-
 \begin{document}
 
 \maketitle
 
 \begin{abstract}
 	These notes are written by myself, which means they are prone to typos and errors. If you find errata, do contact me so I can remedy. or give you access to the Github repository for you to push any changes.
+	
+	Some code (especially the \texttt{tcolorboxes}) are copied fron \href{https://github.com/4yn/a-lv-notes}{\underline{\color{blue} 4yn's a-lv-notes repository\footnote{https://github.com/4yn/a-lv-notes}}}.
 	
 	Use these notes with caution.
 \end{abstract}
