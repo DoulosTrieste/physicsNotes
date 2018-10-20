@@ -53,6 +53,8 @@
 		
 		\subsubsection{Isolated Charges}
 		Field lines are the path a test charge would take within that electric field. The tighter the field lines are, the stronger the electric field at that area, which means that the test charge would experience a stronger force.
+		
+		Field lines extend \textbf{out} from \textbf{positive} charges.
 		\begin{center}
 			\begin{tikzpicture}
 				\foreach \x in {0,...,7}
@@ -60,7 +62,7 @@
 				\filldraw [fill=white] (0,0) circle (0.25) node {\(+\)};				
 			\end{tikzpicture}
 		\end{center}
-		Field lines extend out from positive charges.
+		Field lines go \textbf{in} to \textbf{negative} charges.
 		\begin{center}
 			\begin{tikzpicture}
 				\foreach \x in {0,...,7}
@@ -68,7 +70,6 @@
 				\filldraw [fill=white] (0,0) circle (0.25) node {\(-\)};				
 			\end{tikzpicture}
 		\end{center}
-		Field lines go in to negative charges.
 		
 		If a charge is stronger, it gets more field lines (e.g. this one has twice the charge as the one above, so it should get more)
 		\begin{center}
@@ -80,8 +81,53 @@
 		\end{center}
 		
 		\subsubsection{Attraction}
-		
 		\subsubsection{Repulsion}
-		
+		Drawing these in TikZ was too difficult so take these from some online website.
+		\begin{center}
+			\includegraphics[width=\linewidth]{graphics/electrostaticsFieldLines}
+		\end{center}
+	
 		\subsection{Charging}
+		The two methods of charging are \textbf{rubbing} and \textbf{induction}.
+		
+		\subsubsection{Rubbing}
+		Electrons (negative charges) can be transferred from one object to another through rubbing. There are no movement of positive charges.
+		
+		\subsubsection{Induction}
+		Charging with induction can be achieved for two conductors. The most classic example is the metal sphere case.
+		\begin{center}
+			\begin{tikzpicture}
+				\draw (0,0) circle (1cm);
+			\end{tikzpicture}
+		\end{center} 
+		Suppose this sphere is overall neutral to begin with. Now a positively charged rod is brought to the sphere. This causes the electrons in the sphere to move towards the positively charged rod.
+		\begin{center}
+			\begin{tikzpicture}
+				\foreach \x in {15,30,45,60,75} \node at ({0.85*sin(\x)},{0.85*cos(\x)}) {\(-\)};
+				\draw (0,0) circle (1);
+				\draw[rotate=30] (1.5,-1) rectangle (2,1) node [pos=0.5, rotate=120]{\(+++++\)};
+			\end{tikzpicture}
+		\end{center} 
+		The sphere is then earthed. Electrons flow from earth up to the sphere.
+		\begin{center}
+			\begin{circuitikz}
+				\foreach \x in {15,30,45,60,75} \node at ({0.85*sin(\x)},{0.85*cos(\x)}) {\(-\)};
+				\draw (0,0) circle (1);
+				\draw[rotate=30] (1.5,-1) rectangle (2,1) node [pos=0.5, rotate=120]{\(+++++\)};
+				\draw (-2,-1) node[ground] {} to (-2,{cos(225)}) -- ({sin(225)},{cos(225)});
+			\end{circuitikz}
+		\end{center} 
+		The rod is then removed, leaving behind a negatively charged sphere.
+		
+		\subsection{Applications of Electrostatic Charging }
+		An application of electrostatics is in spray painting.
+		
+		In spray painting, the object to be painted is charged. The paint will then be charged with the opposite charge, and allowing the paint to attract to the object's surface, allowing for a better coat and efficient painting.
+		
+		\subsection{Hazards of Electrostatic Charging}
+		Lightning is a danger that is caused by electrostatic charging.
+		
+		Charges build up in clouds due to friction between air and water molecules, which causes in ionised (charged) air which allows a conductive path between the charges built up in the clouds and ground, causing lightning.
+		
+		This can be resolved by installing conductive lightning rods on high objects such as buildings to safely ground these large releases of electric energy.
 \end{document}
