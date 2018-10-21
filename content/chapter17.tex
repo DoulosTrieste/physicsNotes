@@ -14,14 +14,14 @@
 	Conventional current is where current flows from a higher voltage to a lower voltage. 
 	\begin{center}
 		\begin{circuitikz}
-			\draw (2,2) to[battery1, i^>=\(I\)] (4,2) -- (6,2) -- (6,0) -- (4,0) to[european resistor, i=\(I\)] (2,0) -- (0,0) -- (0,2) -- (2,2); 
+			\draw (2,2) to[battery1, i=\(I\)] (4,2) -- (6,2) -- (6,0) -- (4,0) to[european resistor, i<=\(I\)] (2,0) -- (0,0) -- (0,2) -- (2,2); 
 		\end{circuitikz}
 	\end{center}
 	
 	Electron flow is the opposite of that.
 	\begin{center}
 		\begin{circuitikz}
-			\draw (2,2) to[battery1, i<=\(e^-\)] (4,2) -- (6,2) -- (6,0) -- (4,0) to[european resistor, i<=\(e^-\)] (2,0) -- (0,0) -- (0,2) -- (2,2); 
+			\draw (2,2) to[battery1, i>=\(e^-\)] (4,2) -- (6,2) -- (6,0) -- (4,0) to[european resistor, i>^=\(e^-\)] (2,0) -- (0,0) -- (0,2) -- (2,2); 
 		\end{circuitikz}
 	\end{center}
 
@@ -42,31 +42,6 @@
 	
 	\subsection{Resistance}
 	\pdef{Resistance}{The resistance of a component is the ratio of the potential difference across it to the current flowing through it. \[R = \frac{V}{I}\] The SI unit of resistance is ohm [\si{\ohm}].}
-	
-	\peqn{Resistance in Series}{If multiple resistors are arranged in series
-	\begin{center}
-		\begin{circuitikz}
-			\draw (0,0) to[european resistor, l=\(R_1\)] (2,0) to[european resistor, l=\(R_2\)] (4,0) to[open] (5,0) to[european resistor, l=\(R_n\)] (7,0);
-			\draw [dashed] (4,0) -- (5,0);
-		\end{circuitikz}
-	\end{center}
-	then the net resistance is}{R_{\mathrm{net}} = R_1 + R_2 + \cdots R_n}
-	
-	\peqn{Resistance in Parallel}{If multiple resistors are arranged in parallel
-	\begin{center}
-		\begin{circuitikz}
-			\draw (0,0) to[european resistor, l=\(R_1\)] (2,0) -- (2,-1);
-			\draw (0,0) -- (0,-1) to[european resistor, l=\(R_2\)] (2,-1) -- (3,-1);
-			\draw (-1,-1) -- (0,-1) -- (0,-1.25);
-			\draw (0,-1.75) -- (0,-2);
-			\draw [dashed] (0,-1.25) -- (0,-1.75);
-			\draw (2,-1) -- (2,-1.25);
-			\draw (2,-1.75) -- (2,-2);
-			\draw [dashed] (2,-1.25) -- (2,-1.75);
-			\draw (0,-2) to[european resistor, l=\(R_n\)] (2,-2);
-		\end{circuitikz}
-	\end{center}
-	then the effective resistance is}{R_{\mathrm{net}} = \left(R_1^{-1} + R_2^{-1} + \cdots + R_n^{-1}\right)^{-1}}
 	
 	\pdef{Ohm's Law}{Ohm's Law states that the current passing through a metallic conductor is directly proportional lo the potential difference across it, provided that physical conditions (such as temperature) remain constant. \[ V = IR\]}
 	
