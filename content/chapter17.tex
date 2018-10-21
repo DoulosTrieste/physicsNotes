@@ -6,8 +6,11 @@
 		Current is the rate of flow of charge. When charges move there is current and hence we name this current electricity. In this chapter we will explore the fundamentals that govern current electricity.
 	\end{preamb}
 	
+	\subsection{Current}
 	\pdef{Current}{Current is the rate of flow of charge. \[I = \frac{Q}{t}\] The SI unit of current is ampere [\si{\ampere}].}
+	Current is measured with an ammeter.
 	
+	\subsubsection{Current Flow}
 	Conventional current is where current flows from a higher voltage to a lower voltage. 
 	\begin{center}
 		\begin{circuitikz}
@@ -21,7 +24,8 @@
 			\draw (2,2) to[battery1, i<=\(e^-\)] (4,2) -- (6,2) -- (6,0) -- (4,0) to[european resistor, i<=\(e^-\)] (2,0) -- (0,0) -- (0,2) -- (2,2); 
 		\end{circuitikz}
 	\end{center}
-	
+
+	\subsection{Electromotive Force and Potential Difference}
 	\pdef{Electromotive Force}{Electromotive force (e.m.f.) is the work done by a source in driving unit charge around a complete circuit. \[E = \frac{W}{Q}\] The SI unit of electromotive force is volt [\si{\volt}].} 
 	
 	\peqn{Electromotive Forces in Series}{If multiple electromotive force sources are arranged in series
@@ -31,11 +35,12 @@
 			\draw [dashed] (2,0) -- (3,0);
 		\end{circuitikz}
 	\end{center}
-	then the net electromotive force is}{E_\mathrm{net} = E_1 + E_2 + \cdots + E_n}
+	then the net electromotive force is}{E_{\mathrm{net}} = E_1 + E_2 + \cdots + E_n}
 	
 	
 	\pdef{Potential Difference}{The potential difference (p.d.) (or voltage) across a component in a circuit as the work done to drive unit charge through the component. \[V = \frac{W}{Q}\] The SI unit of potential difference is volt [\si{\volt}].}
 	
+	\subsection{Resistance}
 	\pdef{Resistance}{The resistance of a component is the ratio of the potential difference across it to the current flowing through it. \[R = \frac{V}{I}\] The SI unit of resistance is ohm [\si{\ohm}].}
 	
 	\peqn{Resistance in Series}{If multiple resistors are arranged in series
@@ -45,7 +50,7 @@
 			\draw [dashed] (4,0) -- (5,0);
 		\end{circuitikz}
 	\end{center}
-	then the net resistance is}{R_\mathrm{net} = R_1 + R_2 + \cdots R_n}
+	then the net resistance is}{R_{\mathrm{net}} = R_1 + R_2 + \cdots R_n}
 	
 	\peqn{Resistance in Parallel}{If multiple resistors are arranged in parallel
 	\begin{center}
@@ -61,11 +66,48 @@
 			\draw (0,-2) to[european resistor, l=\(R_n\)] (2,-2);
 		\end{circuitikz}
 	\end{center}
-	then the effective resistance is}{R_\mathrm{net} = \left(R_1^{-1} + R_2^{-1} + \cdots + R_n^{-1}\right)^{-1}}
+	then the effective resistance is}{R_{\mathrm{net}} = \left(R_1^{-1} + R_2^{-1} + \cdots + R_n^{-1}\right)^{-1}}
 	
 	\pdef{Ohm's Law}{Ohm's Law states that the current passing through a metallic conductor is directly proportional lo the potential difference across it, provided that physical conditions (such as temperature) remain constant. \[ V = IR\]}
 	
+	\pdef{Ohmic Conductors}{Ohmic conductors are conductors that obey Ohm's law.}
+	An ohmic conductor might exhibit an \(I-V\) graph as such:
+	\begin{center}
+		\pgfplotsset{ticks=none}
+		\begin{tikzpicture}
+			\begin{axis}[
+				xlabel = \(V/\si{\volt}\),
+				ylabel = \(I/\si{\ampere}\),
+				axis lines = left
+			]
+				\addplot [domain=0:10] {x};
+			\end{axis}
+		\end{tikzpicture}
+	\end{center}
+	Notice that the graph is \textbf{linear} and starts at the \textbf{origin}.
+	
+	On the other hand, non-ohmic conductors may exhibit such a characteristic curve:
+	\begin{center}
+		\pgfplotsset{ticks=none}
+		\begin{tikzpicture}
+			\begin{axis}[
+				xlabel = \(V/\si{\volt}\),
+				ylabel = \(I/\si{\ampere}\),
+				axis lines = left
+			]
+				\addplot [domain=0:3] {-1-e^-x};
+			\end{axis}
+		\end{tikzpicture}
+	\end{center}
+	Notice that the graph is \textbf{not linear}.
+	
+	\subsection{Resistivity}
+	\pdef{Resistivity}{Resistivity is the property of a material that determines its resistance when made into a wire or electrical component. The SI unit of resistivity is ohm metre [\si{\ohm \meter}].}
 	\peqn{Resistance of a Wire}{The resistance of the wire with length \(l\), cross-sectional area \(A\), and resistivity \(\rho\) is equal to}{R=\frac{\rho l}{A}}
+	Rewritring this equation making \(\rho\) the subject gives us 
+	\[
+		\rho = \frac{AR}{l}
+	\]
 	
 	Temperature affects resistance. The higher the temperature of a conductor, the higher its resistance.
 	\[
