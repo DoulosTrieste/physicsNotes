@@ -24,7 +24,7 @@
 \tcbuselibrary{skins}
 \tcbuselibrary{breakable}
 
-\tcbset{ignore nobreak}
+%\tcbset{ignore nobreak}
 
 \usetikzlibrary{arrows}
 \usetikzlibrary{calc}
@@ -43,16 +43,16 @@
 \author{Ng Kang Zhe}
 
 \newtcolorbox{preamb}{
-	breakable=true,
+	breakable=false,
 	top = 0.5mm, bottom = 0.5mm,
 	left = 0.5mm, right = 0.5mm,
 	colback = white,
 	title=Preamble,
 }
 
-\newtcolorbox[auto counter,number within=section]{physdef}[2][]{
+\newtcolorbox[auto counter,number within=subsection]{physdef}[2][]{
 	sharp corners=all,
-	breakable=true,
+	breakable=false,
 	top = 0.5mm, bottom = 0.5mm,
 	left = 0.5mm, right = 0.5mm,
 	colback = white,
@@ -62,7 +62,7 @@
 
 \newcommand\pdef[2]{\begin{physdef}{#1} #2 \end{physdef}}
 
-\newtcolorbox[auto counter,number within=section]{physeqn}[2][]{
+\newtcolorbox[auto counter,number within=subsection]{physeqn}[2][]{
 	sharp corners=all,
 	breakable=true,
 	top = 0.5mm, bottom = 0.5mm,
