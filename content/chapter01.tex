@@ -77,9 +77,9 @@
 	
 		\begin{center}
 			\begin{tikzpicture}
-				\draw [line width=0.5mm, ->] (0,0) -- (2,2) node[anchor=south east, pos=0.5]{\(\vec{\mathbf{v}}\)};
-				\draw [line width=0.25mm, dashed, ->] (0,0) -- (2,0) node[anchor=north, pos=0.5] {\(\vec{\mathbf{v}}_x\)};
-				\draw [line width=0.25mm, dashed, ->] (0,0) -- (0,2) node[anchor=east, pos=0.5] {\(\vec{\mathbf{v}}_y\)};
+				\draw [line width=0.5mm, -latex] (0,0) -- (2,2) node[anchor=south east, pos=0.5]{\(\vec{\mathbf{v}}\)};
+				\draw [line width=0.25mm, dashed, -latex] (0,0) -- (2,0) node[anchor=north, pos=0.5] {\(\vec{\mathbf{v}}_x\)};
+				\draw [line width=0.25mm, dashed, -latex] (0,0) -- (0,2) node[anchor=east, pos=0.5] {\(\vec{\mathbf{v}}_y\)};
 				\draw (0.5,0) arc (0:45:0.5) node[pos=0.5, anchor=west] {\(\theta\)};
 			\end{tikzpicture}
 		\end{center}
@@ -87,10 +87,10 @@
 		Observer that when you add the two components together, they form the vector itself.
 		\begin{center}
 			\begin{tikzpicture}
-				\draw [line width=0.5mm, ->] (0,0) -- (1,2) node[anchor=south east, pos=0.5] {\(\vec{\mathbf{u}}\)};
-				\draw [line width=0.2mm, dotted, ->] (2,-3) -- (3,-1) node[anchor=north west, pos=0.5] {translated \(\vec{\mathbf{u}}\)};
-				\draw [line width=0.5mm, ->] (0,0) -- (2,-3) node[anchor=north east, pos=0.5] {\(\vec{\mathbf{v}}\)};
-				\draw [line width=0.2mm, dotted, ->] (1,2) -- (3,-1) node[anchor=south west, pos=0.5] {translated \(\vec{\mathbf{v}}\)};
+				\draw [line width=0.5mm, -latex] (0,0) -- (1,2) node[anchor=south east, pos=0.5] {\(\vec{\mathbf{u}}\)};
+				\draw [line width=0.2mm, dotted, -latex] (2,-3) -- (3,-1) node[anchor=north west, pos=0.5] {translated \(\vec{\mathbf{u}}\)};
+				\draw [line width=0.5mm, -latex] (0,0) -- (2,-3) node[anchor=north east, pos=0.5] {\(\vec{\mathbf{v}}\)};
+				\draw [line width=0.2mm, dotted, -latex] (1,2) -- (3,-1) node[anchor=south west, pos=0.5] {translated \(\vec{\mathbf{v}}\)};
 				\draw [line width=0.5mm, ->>] (0,0) -- (1.5,-0.5) node[anchor=north] {\(\vec{\mathbf{u}} + \vec{\mathbf{v}}\)};
 				\draw [line width=0.5mm] (1.5,-0.5) -- (3,-1);
 			\end{tikzpicture}
@@ -138,9 +138,12 @@
 				\draw [dashed] (0,5) -- ++(250:5) node (x) {};
 				\draw [dashed] (0,5) -- ++(290:5) node (y) {};
 				\draw (0,4.25) arc (270:250:0.75) node[pos=0.5, anchor=north] {\(\theta\)};
+				\draw (-3,5) -- (3,5);
+				\fill [pattern=north east lines] (-3,5) rectangle (3,5.1);
 				\filldraw [color=black] (0,0) circle (0.25);
 				\filldraw [color=gray] (x) circle (0.25);
-				\filldraw [color=gray] (y) circle (0.25);;
+				\filldraw [color=gray] (y) circle (0.25);
+				\draw[latex-latex] ({5*sin(-20)},-0.35) -- (0,-0.35) node[pos=0.5, anchor=north] {\(A\)};
 			\end{tikzpicture}
 		\end{center}
 		
