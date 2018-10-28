@@ -10,24 +10,24 @@
 		Like charges repel, unlike charges attract.
 		\begin{center}
 			\begin{tikzpicture}
-				\draw [line width=0.5mm, ->] (-2,0) -- (-3,0);
-				\draw [line width=0.5mm, ->] (2,0) -- (3,0);
+				\draw [line width=0.5mm, -latex] (-2,0) -- (-3,0);
+				\draw [line width=0.5mm, -latex] (2,0) -- (3,0);
 				\filldraw [fill=white] (-2,0) circle (0.25) node {\(+\)};
 				\filldraw [fill=white] (2,0) circle (0.25) node {\(+\)};
 			\end{tikzpicture}
 		\end{center}
 		\begin{center}
 			\begin{tikzpicture}
-				\draw [line width=0.5mm, ->] (-2,0) -- (-3,0);
-				\draw [line width=0.5mm, ->] (2,0) -- (3,0);
+				\draw [line width=0.5mm, -latex] (-2,0) -- (-3,0);
+				\draw [line width=0.5mm, -latex] (2,0) -- (3,0);
 				\filldraw [fill=white] (-2,0) circle (0.25) node {\(-\)};
 				\filldraw [fill=white] (2,0) circle (0.25) node {\(-\)};
 			\end{tikzpicture}
 		\end{center}
 		\begin{center}
 			\begin{tikzpicture}
-				\draw [line width=0.5mm, ->] (-2,0) -- (-1,0);
-				\draw [line width=0.5mm, ->] (2,0) -- (1,0);
+				\draw [line width=0.5mm, -latex] (-2,0) -- (-1,0);
+				\draw [line width=0.5mm, -latex] (2,0) -- (1,0);
 				\filldraw [fill=white] (-2,0) circle (0.25) node {\(+\)};
 				\filldraw [fill=white] (2,0) circle (0.25) node {\(-\)};
 			\end{tikzpicture}
@@ -47,7 +47,9 @@
 				\draw (0,0) -- (5,0);
 				\draw (0,2) -- (5,2);
 				\foreach \x in {1,...,9}
-				\draw [->] (0.5*\x,0) -- (0.5*\x,2);
+				\draw [-latex] (0.5*\x,0) -- (0.5*\x,1);
+				\foreach \x in {1,...,9}
+				\draw (0.5*\x,1) -- (0.5*\x,2);
 			\end{tikzpicture}
 		\end{center}
 		
@@ -58,7 +60,7 @@
 		\begin{center}
 			\begin{tikzpicture}
 				\foreach \x in {0,...,7}
-				\draw [->] (0,0) -- (45*\x:1);
+				\draw [-latex] (0,0) -- (45*\x:1);
 				\filldraw [fill=white] (0,0) circle (0.25) node {\(+\)};				
 			\end{tikzpicture}
 		\end{center}
@@ -66,7 +68,7 @@
 		\begin{center}
 			\begin{tikzpicture}
 				\foreach \x in {0,...,7}
-				\draw [<-] (45*\x:0.25) -- (45*\x:1);
+				\draw [latex-] (45*\x:0.25) -- (45*\x:1);
 				\filldraw [fill=white] (0,0) circle (0.25) node {\(-\)};				
 			\end{tikzpicture}
 		\end{center}
@@ -75,7 +77,7 @@
 		\begin{center}
 			\begin{tikzpicture}
 				\foreach \x in {0,...,15}
-				\draw [->] (0,0) -- (22.5*\x:1);
+				\draw [-latex] (0,0) -- (22.5*\x:1);
 				\filldraw [fill=white] (0,0) circle (0.25) node {\(+\)};				
 			\end{tikzpicture}
 		\end{center}
@@ -113,6 +115,7 @@
 				\draw (0,0) circle (1);
 				\draw[rotate=30] (1.5,-1) rectangle (2,1) node [pos=0.5, rotate=120]{\(+++++\)};
 				\draw (-2,-1) node[ground] {} to (-2,{cos(225)}) -- ({sin(225)},{cos(225)});
+				\draw[-latex] (-2,-1) -- (-2,{cos(225)-0.25}) node[anchor=east] {\(e^-\)};
 			\end{circuitikz}
 		\end{center} 
 		The rod is then removed, leaving behind a negatively charged sphere.
