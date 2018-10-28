@@ -1,0 +1,78 @@
+\documentclass[../main.tex]{subfiles}
+
+\begin{document}
+	\section{Practical Electricity}
+	\begin{preamb}
+		In this chapter we will explore electricity in everyday life and electrical safety.
+	\end{preamb}
+
+	\subsection{Electrical Energy and Power}
+	\peqn{Electrical Power}{Electrical power can be calculated with the equations}{P = IV = I^2R = \frac{V^2}{R}}
+	
+	\peqn{Electrical Energy}{Because \(E = Pt\), we multiply all the above equations by \(t\)}{E = IVt = I^2Rt = \frac{V^2}{R}t}
+	
+	\peqn{Cost of Electricity Consumption}{The cost of using some amount of electrical energy can be calculated in the equation}{\text{cost} = E \times \text{rate}}
+	Sometimes the preferred unit of electrical energy consumed is kilowatt hours [\si{\kilo\watt\hour}] to make calculating cost easier.
+	
+	\subsection{Hazards of Electricity}
+	Electricity can be powerful but dangerous. The following are notable examples where electricity can cause a hazard. 
+	\begin{itemize}
+		\item \textbf{Damaged Insulation} \begin{itemize}
+			\item Damaged insulation can occur when the insulating material of a cable experiences wear and tear over time, leaving in exposed conducting wires.
+			\item These exposed conducting wires can cause electric shocks if touched.
+		\end{itemize}
+		\item \textbf{Damp Environments} \begin{itemize}
+			\item Water is conductive, \textit{even if it is pure}. \begin{itemize}
+				\item \(\ce{H2O(l) <=>} \underbrace{\ce{H+(aq) + OH-(aq)}}_{\text{mobile charges}}\)
+%				lol i loaded the entire mhchem package just to write this one line
+			\end{itemize}
+			\item Water coming into contact with uninsulated electrical wires provides a conducting path for current.
+		\end{itemize} 
+		\item \textbf{Overheating of Cables} \begin{itemize}
+			\item Overloading of sockets can cause too high of current draw.
+			\item Due to the heating effect of current, if the current exceeds the power rating of a wire or electrical component, it may damage the component or start an electrical fire.
+		\end{itemize}
+	\end{itemize}
+
+	\subsection{Safety Features in Home Circuitries}
+	\subsubsection{Circuit Breakers}
+	\pdef{Circuit Breaker}{A circuit breaker is a safety device that can switch off the electrical supply in a circuit when large currents flow through it.}
+	Circuit breakers can be reset by the user.
+	
+	\subsubsection{Fuses}
+	\pdef{Fuse}{A fuse is a safety device added to an electrical circuit to prevent excessive current flow.}
+	Fuses have a certain current rating which we will call \(I_0\). The following shows what happens to the fuse if some current \(I\) is passed through it.
+	\[
+		\text{fuse} \begin{cases}
+			\text{not blown} & I \leqslant I_0 \\
+			\text{blown} & I > I_0
+		\end{cases}
+	\]
+	
+	\subsubsection{Switches}
+	\pdef{Switches}{Switches are designed to break or complete an electrical circuit. They should be fitted to the live wire of the appliance.}
+	\begin{center}
+		\begin{circuitikz}
+			\draw (0,0) to [fuse, l=fuse] (1.5,0) to [spst] (3,0) to[european resistor, l=load] (3,-2) -- (0,-2);
+			\draw [o-] (-0.5,0) node[anchor=east] {\SI{240}{\volt}} -- (0,0);
+			\draw [o-] (-0.5,-2) node[anchor=east] {\SI{0}{\volt}} -- (0,-2);
+		\end{circuitikz}
+	\end{center}
+	
+	\subsubsection{Earthing}
+	\pdef{Earthing}{Earthing is the method of connecting a wire from the appliance to earth so that unsafe currents can safely flow to earth without hurting the user.}
+	
+	\subsubsection{Three-pin Plugs}
+	\pdef{Three-pin Plugs}{Three pin plugs contain three wires: earth, ground, and neutral. They also have a fuse.}
+	The earth wire is \textcolor{green!50!black}{\bf green} and \textcolor{yellow!50!black}{\bf yellow}; the live wire is \textcolor{red!50!black}{\bf brown}; the neutral wire is \textcolor{blue!80!yellow}{\bf blue}.
+	
+	Viewing the three pin plug with its casing removed, the live (b\textcolor{red!50!black}{\bf R}own) wire goes to the \textcolor{red!50!black}{\bf R}ight (\(\rightarrow\)); the neutral (b\textcolor{blue!80!yellow}{\bf L}ue) wire goes to the \textcolor{blue!80!yellow}{\bf L}eft (\(\leftarrow\)).
+	
+	\subsubsection{Double Insulation}
+	Double insulation is used if the appliance uses a two pin plug. It provides two levels of insulation:
+	\begin{enumerate}
+		\item The electric cables are insulated from the internal components of the appliance.
+		\item The internal components are insulated from the external casing.
+	\end{enumerate}
+	If double insulation is available, but a three-pin plug is present, the earth connector is most likely a dummy one just to allow the appliance to plug in.
+\end{document}

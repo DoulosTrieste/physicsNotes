@@ -42,9 +42,13 @@
 			\begin{axis}[
 				axis lines = left,
 				xlabel = \(t\),
-				ylabel = \(s\)
+				ylabel = \(s\),
+				ymin = 0
 			]
 				\addplot [domain=0:10] {x^3};
+				\addplot [gray, domain=0:10] {168.75*x - 843.75};
+				\filldraw (axis cs:7.5, 421.875) circle (0.25mm);
+				\draw [dashed, gray] (axis cs: 7, 337.5) -- (axis cs: 8,337.5) -- (axis cs: 8,506.25);
 			\end{axis}
 		\end{tikzpicture}
 		\end{center}
