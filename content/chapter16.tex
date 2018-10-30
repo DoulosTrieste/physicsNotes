@@ -102,7 +102,9 @@
 				\draw (0,0) circle (1cm);
 			\end{tikzpicture}
 		\end{center} 
-		Suppose this sphere is overall neutral to begin with. Now a positively charged rod is brought to the sphere. This causes the electrons in the sphere to move towards the positively charged rod.
+		Suppose this sphere is overall neutral to begin with, and isolated from ground.
+		
+		Now a positively charged rod is brought to the sphere. This causes the electrons in the sphere to move towards the positively charged rod.
 		\begin{center}
 			\begin{tikzpicture}
 				\foreach \x in {15,30,45,60,75} \node at ({0.85*sin(\x)},{0.85*cos(\x)}) {\(-\)};
@@ -120,8 +122,15 @@
 				\draw[-latex] (-2,-1) -- (-2,{cos(225)-0.25}) node[anchor=east] {\(e^-\)};
 			\end{circuitikz}
 		\end{center} 
-		The rod is then removed, leaving behind a negatively charged sphere.
+		Keep in mind the location of where the earth connection is made \textbf{does not matter}. These charged particles are not moving due to position, but moving due to lower energy states available.
 		
+		The rod is then removed, leaving behind a negatively charged sphere.
+		\begin{center}
+			\begin{tikzpicture}
+			\draw (0,0) circle (1cm);
+			\foreach \x in {0,1,2,3,4,5,6} \node at ({0.5*sin(60*\x)},{0.5*cos(60*\x)}) {\(-\)};
+			\end{tikzpicture}
+		\end{center}
 		\subsection{Discharging}
 		\subsubsection{Insulators}
 		Insulators can be discharged by \textbf{heating} or \textbf{providing humid conditions}.

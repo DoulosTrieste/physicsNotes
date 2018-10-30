@@ -53,7 +53,7 @@
 	\pdef{Switches}{Switches are designed to break or complete an electrical circuit. They should be fitted to the live wire of the appliance.}
 	\begin{center}
 		\begin{circuitikz}
-			\draw (0,0) to [fuse, l=fuse] (1.5,0) to [spst, l=switch] (3,0) to[european resistor, l=load] (3,-2) -- (0,-2);
+			\draw (0,0) to [fuse, l=fuse] (1.5,0) to [nos, l=switch] (3,0) to[european resistor, l=load] (3,-2) -- (0,-2);
 			\draw [o-] (-0.5,0) node[anchor=east] {\SI{240}{\volt}} -- (0,0);
 			\draw [o-] (-0.5,-2) node[anchor=east] {\SI{0}{\volt}} -- (0,-2);
 		\end{circuitikz}

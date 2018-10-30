@@ -19,7 +19,7 @@
 		From the first law, we know that a force can accelerate a body (\textit{i.e.} change velocity). This can be done by either changing the magnitude or direction of the velocity vector of the body.
 			
 		\subsubsection{Static System}
-		\pdef{Translational equilibrium}{A body is said to be in translational equilibrium if the \textbf{net force on the body is zero}. This is sometimes called a static system, where no net acceleration takes place.}
+		\pdef{Equilibrium}{A body is said to be in equilibrium if the net force on the body is zero. This is sometimes called a static system, where no net acceleration takes place.}
 			
 		When resolving statics problems, it is important to ensure all force vectors add up to zero. Graphically, all these vectors when placed tip to tail should end where they started.
 			
@@ -53,7 +53,9 @@
 		
 			\subsubsection{Friction}
 			\pdef{Friction}{is the contact force that opposes or tends to oppose motion between surfaces in contact.}
-			Friction is a resistive force, that works against a force applied. There are two types of friction: kinetic and static friction. Kinetic friction deals with two objects moving on each other, and exists when an object is moving, while static friction deals with two objects that are stationary. The maximum static friction is the minimum force to be applied to allow an object to start moving on a surface.
+			Friction is a resistive force, that works against a force applied. There are two types of friction: kinetic and static friction. 
+			
+			Kinetic friction deals with two objects moving on each other, and exists when an object is moving, while static friction deals with two objects that are stationary. The maximum static friction is the minimum force to be applied to allow an object to start moving on a surface.
 			\begin{center}
 				\begin{tikzpicture}
 				\draw (2,0) -- (2,1) -- (3,1) -- (3,0);
@@ -64,5 +66,23 @@
 				\draw (0,0) -- (5,0) node[pos=1.0, anchor=north east] {surface};
 				\end{tikzpicture}
 			\end{center}
+		
+			\subsubsection{Centripetal Force}
+			\pdef{Centripetal Force}{\textit{(It's not really in syllabus but you need to know this is a thing.)} A centripetal force accelerates a body by changing the direction of the body’s velocity without changing the body’s speed.}
 			
+			This force arises in uniform circular motion. Centripetal force ``pulls'' the object back to the centre, allowing it to constantly change direction. Centripetal force can be the force of a string pulling a rotating object or a planet orbiting around a star.
+			\begin{center}
+				\begin{tikzpicture}
+				\draw[dashed] (0,0) circle (3cm);
+				\draw[line width=0.5mm, -stealth] ({3*sin{30}}, {3*cos{30}}) -- ({1.5*sin{30}}, {1.5*cos{30}}) node[anchor=south east]{\(F_C\)};
+				\draw[line width=0.5mm] ({3*sin{30}}, {3*cos{30}}) -- (0,0);
+				\fill (0,0) circle (0.5mm);
+				\fill ({3*sin{30}}, {3*cos{30}}) circle (2mm);
+				\draw[line width=0.25mm, -stealth] ({3*sin{30}}, {3*cos{30}}) -- ++(330:1.5) node[pos=0.5, anchor=south west]{\(v_\mathrm{tangential}\)};
+				\end{tikzpicture}
+			\end{center}
+		
+			\[F_C = \frac{mv_\mathrm{tangential}^2}{r} \]
+			
+			The magnitude of \(v_\mathrm{tangential}\) stays constant, but the direction is constantly changing. That means the object is accelerating. This acceleration is called centripetal acceleration.
 \end{document}

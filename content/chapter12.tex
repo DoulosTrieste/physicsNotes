@@ -7,13 +7,27 @@
 	\end{preamb}
 	
 	\subsection{Definitions}
-	\pdef{Wave}{A wave is the transfer of energy without the transfer of matter.}
+	\pdef{Wave}{A wave is made up of periodic motion. A wave is a disturbance that transfers energy from one place to another without transfer of matter.}
 	
 	\pdef{Transverse Wave}{A transverse wave is when the particles oscillate perpendicular to the direction of propagation.}
 	An example of a transverse wave is electromagnetic waves.
 	
+	\begin{center}
+		\begin{tikzpicture}
+			\draw[decorate, decoration={snake, segment length=10, amplitude=10}] (0,0) -- (5,0);
+		\end{tikzpicture}
+	\end{center}
+	
 	\pdef{Longitudinal Wave}{A longitudinal wave is when the particles oscillate parallel to the direction of propagation.}
 	An example of a longitudinal wave is sound waves.
+	
+	\begin{center}
+		\begin{tikzpicture}
+			\draw[decorate, decoration={coil, aspect=0.3, segment length=3mm, amplitude=3mm}] (0,0) --(3.03,0)node[pos=0.5, anchor=north, yshift = -2.5mm] {rarefraction};
+			\draw[decorate, decoration={coil, aspect=0.3, segment length=0.5mm, amplitude=-3mm}] (3.03,0) -- (3.49,0) node[pos=0.5, anchor=south, yshift = 2.5mm] {compression}; 
+			\draw[decorate, decoration={coil, aspect=0.3, segment length=3mm, amplitude=-3mm}] (3.48,0) -- (4.98,0);
+		\end{tikzpicture}
+	\end{center}
 	
 	\subsection{Parts of a Wave}
 	

@@ -54,6 +54,26 @@
 
 	Magnetic field lines \textbf{cannot cross}.
 	
+	Magnetic monopoles \textbf{do not exist}.
+	
+	Field lines point from \textbf{north poles} to \textbf{south poles.}
+	\begin{center}
+		\begin{tikzpicture}
+			\draw (0,0) -- (1,0) -- (1,1) node[pos=0.5, anchor=east] {\color{red} N} -- (0,1) ;
+			\draw (4,0) -- (3,0) -- (3,1) node[pos=0.5, anchor=west] {S} -- (4,1);
+			\draw[latex-] (2,1.25) parabola (1,1);
+			\draw[latex-] (2,-0.25) parabola (1,0);
+			\draw (2,1.25) parabola (3,1);
+			\draw (2,-0.25) parabola (3,0);
+			\draw[latex-] (2,1) parabola (1,0.9);
+			\draw[latex-] (2,0) parabola (1,0.1);
+			\draw (2,1) parabola (3,0.9);
+			\draw (2,0) parabola (3,0.1);
+			\foreach \y in {0.3,0.5,0.7} \draw[-latex] (1,\y) -- (2,\y);
+			\foreach \y in {0.3,0.5,0.7} \draw (2,\y) -- (3,\y);
+		\end{tikzpicture}
+	\end{center}
+	
 	The magnetic field of a magnet can be plotted by sprinkling iron filings around it, or plotting it with a plotting compass.
 	
 	To use a plotting compass, align a magnet in the north-south direction first. Then using a plotting compass, from the north pole of the magnet, draw a point at where the compass points to. Then continue this and connect the lines. Remember that plotting compasses point in the direction of the field lines.

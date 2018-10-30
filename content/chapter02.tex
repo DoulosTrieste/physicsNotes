@@ -7,7 +7,7 @@
 		\end{preamb}
 	
 		\subsection{Distance and Displacement}
-		\pdef{Distance}{The distance traversed by an object in some time is the entire distance \textbf{regardless of the direction of motion}. The SI unit of distance is the metre [\si{\meter}].}
+		\pdef{Distance}{The distance traversed by an object in some time is the entire distance regardless of the direction of motion. The SI unit of distance is the metre [\si{\meter}].}
 		Distances are a \textit{scalar} quantity.
 		
 		\pdef{Displacement}{The displacement of an object is the \textbf{net change in position} of an object. The SI unit of displacement is the meter [\si{\meter}].}
@@ -17,7 +17,7 @@
 		\peqn{Average Speed}{The average speed of an object is given as}{\text{average speed} = \frac{\text{total distance}}{\text{total time}}}
 		Speed is a \textit{scalar} quantity.
 		
-		\pdef{Average Velocity}{The average velocity of an object is the change in \textbf{rate of change of displacement} of the object from the origin point. The SI unit of velocity is metre per second [\si{\meter\per\second}].}
+		\pdef{Average Velocity}{The average velocity of an object is the change in displacement of the object from the origin point. The SI unit of velocity is metre per second [\si{\meter\per\second}].}
 		
 		\peqn{Average Velocity}{The average velocity of an object can be computed as}{\langle v \rangle = \frac{\Sigma s}{\Sigma t}}
 		
@@ -26,7 +26,7 @@
 		\peqn{Instantaneous Velocity}{The instantaneous velocity at a time \(t\) is computed as}{v(t) = \lim_{\Delta t \to 0} \frac{\Delta s}{\Delta t}}
 		Velocity is a \textit{vector} quantity. When reporting the velocity of an object, it is important to also state the \textbf{direction} from the origin point.
 		\subsection{Acceleration}
-		\pdef{Acceleration}{Acceleration is the \textbf{rate of change of velocity}.}
+		\pdef{Acceleration}{Acceleration is the rate of change of velocity.}
 		\peqn{Acceleration}{The acceleration of an object is computed as}{a = \frac{\Delta v}{\Delta t}}
 		Acceleration is a \textit{vector} quantity. When reporting the acceleration of an object, the direction from the origin point must be stated.
 		
@@ -40,7 +40,7 @@
 			\begin{tikzpicture}
 			\pgfplotsset{ticks=none}
 			\begin{axis}[
-				axis lines = left,
+				axis lines = middle,
 				xlabel = \(t\),
 				ylabel = \(s\),
 				ymin = 0
@@ -62,7 +62,7 @@
 			\begin{tikzpicture}
 			\pgfplotsset{ticks=none}
 			\begin{axis}[
-				axis lines = left,
+				axis lines = middle,
 				xlabel = \(t\),
 				ylabel = \(v\)
 			]
@@ -82,7 +82,7 @@
 		The gradient of a velocity-time graph tells us its \textbf{acceleration}; the area under a velocity-time graph tells us the \textbf{displacement}.
 		
 		\subsection{Freefall}
-		\pdef{Freefall}{An object is in freefall when the only force acting on it is due to \textbf{gravity}.}
+		\pdef{Freefall}{An object is in freefall when the only force acting on it is due to gravity.}
 		This means that the acceleration due to freefall is always equal to the local acceleration \(g\), and all other forces like air drag do not exist.
 		\begin{center}
 			\begin{tikzpicture}
@@ -93,6 +93,22 @@
 			\end{tikzpicture}
 		\end{center}
 		
+		\begin{center}
+			\begin{tikzpicture}
+			\pgfplotsset{ticks=none}
+			\begin{axis}[
+			axis lines = middle,
+			xlabel = \(t\),
+			ylabel = \(v\),
+			ymax=100
+			]
+			\addplot [domain=0:10] {10*x};
+			\draw [gray, dashed] (axis cs: 1,10) -- (axis cs: 9,10) -- (axis cs: 9,90);
+			\node at (axis cs: 5,15) {gradient = \SI{10}{\meter \second^{-2}}};
+			\end{axis}
+			\end{tikzpicture}
+		\end{center}
+	
 		\subsection{Air drag}
 		In real situations, air drag, or air resistance, is a resistive force that works against the weight of an object when falling. Air drag is \textbf{proportional to the square of the velocity} of an object.
 		
@@ -101,5 +117,29 @@
 		This continues until a point where the air drag is equal and opposite to the weight of the object. The object then experiences zero net force, and has zero acceleration, maintaining a constant velocity. 
 		
 		This constant velocity is \textbf{terminal velocity}.
+		\begin{center}
+			\begin{tikzpicture}
+			\filldraw (0,0) circle (0.75mm);
+			\draw [line width=0.5mm, -stealth] (0,0) -- (0,-2) node[pos=0.5, anchor=west] {\(mg\)};
+			\draw [line width=0.5mm, -stealth] (0,0) -- (0,0.5) node[pos=0.5, anchor=west] {\(F_\mathrm{drag}\)};
+			\draw [->>] (2,-0.5) -- (2,-1) node[anchor=west] {\(g\)};
+			\draw (2,-1) -- (2,-1.5);
+			\end{tikzpicture}
+		\end{center}
+		\begin{center}
+			\begin{tikzpicture}
+				\pgfplotsset{ticks=none}
+				\begin{axis}[
+					axis lines = middle,
+					ymax = 15,
+					xlabel = \(t\),
+					ylabel = \(v\)
+					]
+					\addplot [domain=0:7] {-(x-7)^2+5};
+					\addplot [domain=7:10] {5};
+					\draw [gray, dashed] (axis cs: 0,5) -- (axis cs: 7,5) node[pos=0.5, anchor=south, black] {\(v_\mathrm{terminal}\)};
+				\end{axis}
+			\end{tikzpicture}
+		\end{center}
 		
 \end{document}

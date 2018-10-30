@@ -53,7 +53,7 @@
 			\begin{axis}[
 				xlabel = \(V/\si{\volt}\),
 				ylabel = \(I/\si{\ampere}\),
-				axis lines = left
+				axis lines = middle
 			]
 				\addplot [domain=0:10] {x};
 			\end{axis}
@@ -68,9 +68,9 @@
 			\begin{axis}[
 				xlabel = \(V/\si{\volt}\),
 				ylabel = \(I/\si{\ampere}\),
-				axis lines = left
+				axis lines = middle
 			]
-				\addplot [samples=100] {ln(x-1)};
+				\addplot [domain=0:10, samples=300] {ln(x+1)};
 			\end{axis}
 		\end{tikzpicture}
 	\end{center}

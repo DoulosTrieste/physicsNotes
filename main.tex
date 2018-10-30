@@ -24,7 +24,7 @@
 \tcbuselibrary{skins}
 \tcbuselibrary{breakable}
 
-%\tcbset{ignore nobreak}
+\tcbset{ignore nobreak}
 
 \usetikzlibrary{arrows}
 \usetikzlibrary{calc}
@@ -33,14 +33,16 @@
 \usetikzlibrary{positioning}
 \usetikzlibrary{decorations.pathreplacing}
 \usetikzlibrary{patterns}
+\usetikzlibrary{fpu}
 
 \setcounter{tocdepth}{1}
 
 \pgfplotsset{width=0.85\linewidth,compat=1.5.1}
 \usepgfplotslibrary{fillbetween}
 
-\title{Physics Notes}
+\title{`O'-Level Physics Notes}
 \author{Ng Kang Zhe}
+\date{2018}
 
 \newtcolorbox{preamb}{
 	breakable=false,
@@ -64,7 +66,7 @@
 
 \newtcolorbox[auto counter,number within=subsection]{physeqn}[2][]{
 	sharp corners=all,
-	breakable=true,
+	breakable=false,
 	top = 0.5mm, bottom = 0.5mm,
 	left = 0.5mm, right = 0.5mm,
 	colback = white,
@@ -89,9 +91,13 @@
 \maketitle
 
 \begin{abstract}
+	These notes are for the `O'-Level Physics syllabus [6091]. They might be similar in content to other physics courses too, though structured differently.
+	
 	These notes are written by myself, which means they are prone to typos and errors. If you find errata, do contact me so I can remedy. or give you access to the Github repository for you to push any changes.
 	
 	Some code (especially the \texttt{tcolorboxes}) are copied fron \href{https://github.com/4yn/a-lv-notes}{\color{blue} \underline{4yn's a-lv-notes repository\footnote{https://github.com/4yn/a-lv-notes}}}.
+	
+	Do whatever you want with these notes. Reproduce them, distribute them, use material from them, go crazy. I don't mind. Unless you republish it without any changes under your own name, we won't have a problem.
 	
 	Use these notes with caution.
 \end{abstract}
@@ -100,11 +106,17 @@
 \tableofcontents
 \end{multicols}
 
+\vspace*{\fill}
+\hrule
+\begin{center}
+	This document consists of \textbf{25} pages including the cover page.
+\end{center}
+
 \newpage
-\begin{multicols*}{2}
+\begin{multicols}{2}
+	
 \part{Measurement}
 \subfile{content/chapter01}
-
 \part{Newtonian Mechanics}
 \subfile{content/chapter02}
 \subfile{content/chapter03}
@@ -112,19 +124,16 @@
 \subfile{content/chapter05}
 \subfile{content/chapter06}
 \subfile{content/chapter07}
-
 \part{Thermal Physics}
 \subfile{content/chapter08}
 \subfile{content/chapter09}
 \subfile{content/chapter10}
 \subfile{content/chapter11}
-
 \part{Waves}
 \subfile{content/chapter12}
 \subfile{content/chapter13}
 \subfile{content/chapter14}
 \subfile{content/chapter15}
-
 \part{Electricity and Magnetism}
 \subfile{content/chapter16}
 \subfile{content/chapter17}
@@ -132,6 +141,15 @@
 \subfile{content/chapter19}
 \subfile{content/chapter20}
 \subfile{content/chapter21}
-\end{multicols*}
+\subfile{content/chapter22}
+\end{multicols}
+\vspace{3em}
+\begin{center}
+{\Large \textbf{End of Document}}
+
+\textit{Have fun studying and all the best for your examinations!}
+
+\href{https://github.com/kangzhe3067/physicsNotes}{\color{gray} \texttt{https://github.com/kangzhe3067/physicsNotes}}
+\end{center}
 
 \end{document}
