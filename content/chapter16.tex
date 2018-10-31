@@ -10,10 +10,12 @@
 		Like charges repel, unlike charges attract.
 		\begin{center}
 			\begin{tikzpicture}
-				\draw [line width=0.5mm, -latex] (-2,0) -- (-3,0);
-				\draw [line width=0.5mm, -latex] (2,0) -- (3,0);
-				\filldraw [fill=white] (-2,0) circle (0.25) node {\(+\)};
-				\filldraw [fill=white] (2,0) circle (0.25) node {\(+\)};
+				\begin{scope}
+					\draw [line width=0.5mm, -latex] (-2,0) -- (-3,0);
+					\draw [line width=0.5mm, -latex] (2,0) -- (3,0);
+					\filldraw [fill=white] (-2,0) circle (0.25) node {\(+\)};
+					\filldraw [fill=white] (2,0) circle (0.25) node {\(+\)};
+				\end{scope}
 			\end{tikzpicture}
 		\end{center}
 		\begin{center}

@@ -11,7 +11,7 @@
 	\begin{center}
 		\begin{tikzpicture}
 			\draw (0,0) [anchor=north] node {hotter region} rectangle (5,0.5) node [anchor=south] {colder region};
-			\shade [left color=red, right color=blue] (0,0) rectangle (5,0.5);
+			\shadedraw [left color=red, right color=white] (0,0) rectangle (5,0.5);
 			\draw [line width=0.5mm, -latex] (0,-1) -- (5,-1) node [pos=0.5, anchor=north] {flow of heat};
 		\end{tikzpicture}
 	\end{center}
@@ -31,6 +31,7 @@
 	\begin{itemize}
 		\item \textbf{Colour:} darker objects radiate heat better than lighter objects (see emissivity)
 		\item \textbf{Surface:} rougher surfaces radiate heat better than smoother surfaces (due to higher surface area)
+		\item \textbf{Surface Temperature:} higher surface temperatures allow for faster radiation.
 	\end{itemize}
 	
 	Further reading: Radiation is modelled by the Stefan-Boltzmann Law:

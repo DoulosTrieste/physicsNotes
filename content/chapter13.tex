@@ -19,11 +19,11 @@
 			\node [anchor=north east] at (2,0) {surface};
 			\fill [color=gray, fill opacity=0.5] (-2,-1) -- (-2,0) -- (2,0) -- (2, -1);
 			\draw [dotted] (0,-1) -- (0,2) node [anchor=south] {normal};
-			\draw [->] (-2,2) -- (-1,1);
+			\draw [-latex] (-2,2) -- (-1,1);
 			\draw (-1,1) -- (0,0);
 			\draw (0,0.5) arc (90:135:0.5) node [anchor=south] {\(\theta_1\)};
 			\draw (0,0.5) arc (90:45:0.5) node [anchor=south] {\(\theta_2\)};
-			\draw [->] (0,0) -- (1,1);
+			\draw [-latex] (0,0) -- (1,1);
 			\draw (1,1) -- (2,2);
 		\end{tikzpicture}
 	\end{center}
@@ -49,23 +49,26 @@
 		\begin{tikzpicture}
 			\draw (0,2.25) -- (0,-3);
 			\fill [pattern=north east lines] (0,-3) node[anchor=north] {mirror} rectangle (0.1,2.25);
-			\draw [line width=0.5mm, ->] (-2,-1) -- (-3,1) node[anchor=east, pos=0.5] {object};
-			\draw [dashed, line width=0.5mm, ->] (2,-1) -- (3,1) node[anchor=west, pos=0.5] {image};
+			\draw [line width=0.5mm, -latex] (-2,-1) -- (-3,1) node[anchor=east, pos=0.5] {object};
+			\draw [dashed, line width=0.5mm, -latex] (2,-1) -- (3,1) node[anchor=west, pos=0.5] {image};
 			\draw [dashed, color=gray] (-2,-1) -- (2,-1);
 			\draw [dashed, color=gray] (-3,1) -- (3,1);
 			\fill (-2,-2.5) circle (0.05) node[anchor=north] {observer};
-			\draw [->] (-2,-1) -- (0,-1.75) node (a) {};
-			\draw [->] (-3,1) -- (0,-1.125) node (b) {};
-			\draw [<-] (-2,-2.5) -- (a);
-			\draw [<-] (-2,-2.5) -- (b);
-			\draw [dashed, ->] (2,-1) -- (a);
-			\draw [dashed, ->] (3,1) -- (b);
+			\draw [-latex] (-2,-1) -- (0,-1.75) node (a) {};
+			\draw [-latex] (-3,1) -- (0,-1.125) node (b) {};
+			\draw [latex-] (-2,-2.5) -- (a);
+			\draw [latex-] (-2,-2.5) -- (b);
+			\draw [dashed, -latex] (2,-1) -- (a);
+			\draw [dashed, -latex] (3,1) -- (b);
 		\end{tikzpicture}
+		\begin{framed}
+			Virtual images or construction lines are drawn with \textbf{dotted} lines.
+		\end{framed}
 	\end{center}
 	
 	\subsection{Refraction}
 
-	\pdef{Refraction}{Refraction is the phenomenon where travels from one medium to another medium with different optical densities and slows down.}
+	\pdef{Refraction}{Refraction is the bending of light as light passes from one optical medium to another, due to light changing speed.}
 
 	\subsubsection{Essentials}
 
@@ -78,16 +81,16 @@
 			\draw [color=gray] (-2,0) -- (2,0);
 			\fill [color=gray, fill opacity=0.5] (-2,-2) -- (-2,0) -- (2,0) -- (2,-2);
 			\draw [dotted] (0,-2) -- (0,2) node [anchor=south] {normal};
-			\draw [->] (-2,2) -- (-1,1);
+			\draw [-latex] (-2,2) -- (-1,1);
 			\draw (-1,1) -- (0,0);
 			\draw (0,0.5) arc (90:135:0.5) node [anchor=south] {\(\theta_1\)};
 			\draw (0,-0.5) arc (270:296:0.5) node [anchor=north] {\(\theta_2\)};
-			\draw [->] (0,0) -- (0.5,-1);
+			\draw [-latex] (0,0) -- (0.5,-1);
 			\draw (0.5,-1) -- (1,-2);
 		\end{tikzpicture}
 	\end{center}
 
-	\pdef{First Law of Refraction}{The incident ray, reflected ray, and the normal lie on the same plane.}
+	\pdef{First Law of Refraction}{The incident ray, refracted ray, and the normal lie on the same plane.}
 
 	\pdef{Second Law of Refraction}{For two given media, the ratio of the sine of the angle of incidence to the sine of the angle of refraction is a constant.}
 
@@ -113,8 +116,8 @@
 			\draw [color=gray] (-2,0) -- (2,0);
 			\fill [color=gray, fill opacity=0.5] (-2,-2) rectangle (2,0);
 			\draw [dotted] (0,-2) -- (0,2);
-			\draw [->] (-1,-2) -- (-0.5,-1);
-			\draw [->] (-0.5,-1) -- (0,0) -- (1,0);
+			\draw [-latex] (-1,-2) -- (-0.5,-1);
+			\draw [-latex] (-0.5,-1) -- (0,0) -- (1,0);
 			\draw (1,0) -- (2,0);
 			\draw (0,-0.5) arc (270:244:0.5) node [anchor=north, pos=0.5] {\(\theta_c\)};
 			\draw (0,0.1) -- (0.1,0.1) node [anchor=south west] {\(\theta_r = \SI{90}{\degree}\)} -- (0.1,0);
@@ -127,15 +130,27 @@
 	
 	\begin{center}
 		\begin{tikzpicture}
-			\draw [color=gray] (-3.5,0) -- (3.5,0);
-			\draw [<->] (0,-2) -- (0,2);
+			\draw [black, opacity=0.25, step=0.5] (-3.5,-3) grid (3.5,3);
+			\draw [color=black, opacity = 0.75] (-3.5,0) -- (3.5,0);
+			\draw [latex-latex] (0,-3) -- (0,3) node[anchor=north east, pos=0.5] {\(O\)};
 			\node [anchor=north] at (-1,0) {\(f\)}; 
 			\node [anchor=north] at (1,0) {\(f\)}; 
-			\draw [->, color=gray] (-3, 1.5) -- (0,1.5) -- (1,0) -- (2,-1.5);
-			\draw [->, color=gray] (-3, 1.5) -- (0,0) -- (2, -1);
+			\node [anchor=north] at (-2,0) {\(2f\)}; 
+			\node [anchor=north] at (2,0) {\(2f\)}; 
+			\node [anchor=north] at (-3,0) {\(3f\)}; 
+			\node [anchor=north] at (3,0) {\(3f\)}; 
+			\foreach \x in {-3, -2, -1, 1, 2, 3} \draw (\x, 0.1) -- (\x, -0.1);
+			\draw [-latex] (-3, 1.5) -- (0,1.5) -- (1,0) -- (2,-1.5);
+			\draw [-latex] (-3, 1.5) -- (0,0) -- (2, -1);
+			\draw [-latex] (-3, 1.5) -- (-1.5,1.5);
+			\draw [-latex] (-3, 1.5) -- (-1.5,0.75);
 			\draw [line width=0.5mm, -latex] (1.5,0) -- (1.5,-0.75);
 			\draw [line width=0.5mm, -latex] (-3,0) -- (-3,1.5);
+			\fill [gray, opacity=0.5] (0,0) ellipse (0.1 and 2.25);
 		\end{tikzpicture}
+		\begin{framed}
+			Real images are drawn with \textbf{solid} lines.
+		\end{framed}
 	\end{center}
 	
 	\pdef{Principal Axis}{The horizontal line passing through the optical centre of the lens is called the principal axis. The principal axis is perpendicular to the vertical plane of the lens.}

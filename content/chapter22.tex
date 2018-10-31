@@ -10,38 +10,53 @@
 	\pdef{Electromagnetic Induction}{Electromagnetic induction is the process through which an induced electromotive force is produced in a conductor due to a changing magnetic field.}
 	The two laws of electromagnetic induction are:
 	\pdef{Faraday's Law}{Faraday's Law of electromagnetic induction states that the magnitude of the induced electromagnetic force is directly proportional to the rate of change of magnetic flux in the circuit. \[\varepsilon \propto \frac{\mathrm{d}\Phi}{\mathrm{d}t}\]}
+	Keep in mind it is the \textbf{change} in magnetic flux. If you put a coil of wire in a magnetic field and there is \textbf{no change}, then there is \textbf{no induced electromotive force}.
 	\pdef{Lenz's Law}{Lenz's Law states that the direction of the induced electromotive force, and hence the induced current in a closed circuit, is always such that its magnetic effect opposes the motion or the change producing it.}
 	\peqn{Faraday's Law for Solenoids}{\textit{(This is not in syllabus.)} Faraday's Law can be mathematically expressed as}{\varepsilon = -N\frac{\mathrm{d}\Phi}{\mathrm{d}t}}
 	
 	\subsection{AC Generators}
-	The current flowing in the coil can be found using Fleming's right-hand rule. \textbf{R}ight-hand rule is for induced cu\textbf{r}rent.
+	The current flowing in the coil can be found using Fleming's right-hand rule.
 	\begin{center}
-		\begin{center}
-			\begin{tikzpicture}
+		\begin{tikzpicture}
 			\draw[-latex] (0,0) -- (0,1.5) node[anchor=south] {\(F\)};
 			\draw[red, thick, -latex] (0,0) -- (-1.5,0) node[anchor=east] {\(\boxed{I}\)};
 			\draw[-latex] (0,0) -- ({1.5*sin(300)}, {1.5*cos(300)}) node[anchor=south east] {\(B\)};
-			\end{tikzpicture}
-		\end{center}
+		\end{tikzpicture}
+		\begin{framed}
+			\textbf{R}ight-hand rule is for induced cu\textbf{r}rent.
+		\end{framed}
 	\end{center}
-
-	\pdef{Armature}{The coil of wire mounted on the axle is called the armature.}
 	
 	Some important parts of the AC generator:
 	\begin{itemize}
+		\item \textbf{Armature:} the coil of wire mounted on the axle.
 		\item \textbf{Slip Rings:} to ensure that the induced current in the coil is transferred to the external circuit.
 	\end{itemize}
 
 	The output voltage is a sinusoidal wave.
 	\begin{center}
 		\begin{tikzpicture}
-			\pgfplotsset{ticks=none}
+%			\pgfplotsset{ticks=none}
 			\begin{axis}[
 				axis lines = middle,
 				xlabel = \(t\)/\si{\second},
-				ylabel = \(\varepsilon\)/\si{\volt}
+				ylabel = \(\varepsilon\)/\si{\volt},
+				xtick ={
+					0, 1.5708, 3.14159, 4.7123889, 6.28318
+				},
+				xticklabels={
+					\(0\), \(\frac{T}{4}\), \(\frac{T}{2}\), \(\frac{3T}{2}\), \(T\)
+				},
+				ytick = {-1, 0, 1},
+				yticklabels = {\(-\varepsilon_0\),\(0\),\(\varepsilon_0\)},
+				ymax = 1.5,
+				ymin = -1.5
 			]
 				\addplot [domain=0:6.3, samples=500] {sin(deg(x))};
+				\draw [dashed, gray] (axis cs: 0,1) -- (axis cs: 6.3,1);
+				\draw [dashed, gray] (axis cs: 0,-1) -- (axis cs: 6.3,-1);
+				\draw [latex-latex] (axis cs: 4.7123889, -1) -- (axis cs: 4.7123889, 1) node[anchor=west, pos=0.75] {\(2\varepsilon_0\)};
+				\draw [latex-latex] (axis cs: 1.5708, 0) -- (axis cs: 1.5708, 1) node[anchor=west, pos=0.5] {\(\varepsilon_0\)};
 			\end{axis}
 		\end{tikzpicture}
 	\end{center}
@@ -86,15 +101,25 @@
 	
 	\subsection{Cathode Ray Oscilloscopes}
 	\pdef{Oscilloscope}{Oscilloscopes are instruments used to observe how a voltage varies over time.}
+	The graphic below shows an example of what a voltage varying over time might look like.
 	\begin{center}
 		\begin{tikzpicture}[scale=0.95]
-			\draw[black, opacity=0.25] (-4,-4) grid (4,4);
-			\draw[thick, gray!20!black] (0,-4) -- (0,4);
+			\draw[|<->|] (-4,3) -- (-3,3) node[anchor=south, pos=0.5] {1 division};
+			\draw[black, opacity=0.25] (-4,-3) grid (4,3);
+			\draw[thick, gray!20!black] (0,-3) -- (0,3);
 			\draw[thick, gray!20!black] (-4,0) -- (4,0);
-			\draw[-latex, thick] (-4,-4) -- (-3,-4) node[anchor=north, pos=0.5]{time base};
-			\draw[-latex, thick] (-4,-4) -- (-4,-3) node[anchor=north, pos=0.5, rotate=270]{Y-gain};
+			\draw[-latex, thick] (-4,-3) -- (-3,-3) node[anchor=north, pos=0.5]{time base};
+			\draw[-latex, thick] (-4,-3) -- (-4,-2) node[anchor=north, pos=0.5, rotate=270]{Y-gain};
 			\draw (-4,0) sin (-3,2) cos (-2,0) sin (-1,-2) cos (0,0) sin (1,2) cos (2,0) sin (3,-2) cos (4,0);
+			\draw[-latex] (1,0) -- (1,2) node[anchor=west, pos=0.5] {\(V_p\)};
+			\draw[latex-latex] (3,-2) -- (3,2) node[anchor=west, pos=0.75] {\(V_{pp}\)};
+			\draw[latex-latex] (-4,0.1) -- (0,0.1) node[anchor=south, pos=0.65] {\(T\)};
+			\foreach \y in {-3,-2,-1,0,1,2} \foreach \ys in {0,0.25,0.5,0.75} \draw[black, opacity = 0.5] (-0.1,{\y + \ys}) -- (0.1,{\y + \ys}); 
+			\foreach \x in {-4,-3,-2,-1,0,1,2,3} \foreach \xs in {0,0.25,0.5,0.75} \draw[black, opacity = 0.5] ({\x + \xs},0.1) -- ({\x + \xs},-0.1); 
 		\end{tikzpicture}
+		\begin{framed}
+			Keep in mind that \(V_p\), \textit{peak} voltage does \textit{not} necessarily refer to \(V_P\), \textit{primary} voltage. The \(p\) and \(P\) are different.
+		\end{framed}
 	\end{center}
 
 	When reading an oscilloscope, always first identify the time base, in seconds/division [\si{\second/div}], and the Y-gain, in volts/division [\si{\volt/div}].
