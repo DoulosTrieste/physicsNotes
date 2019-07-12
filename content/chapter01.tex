@@ -70,16 +70,16 @@
 		\subsection{Vector Analysis}
 		Vectors can be added by using the trigonometric method or the graphical method.
 		
-		\peqn{Components}{A two-dimensional vector \(\vec{\mathbf{v}}\) can be broken down into components \(\vec{\mathbf{v}}_x\) and \(\vec{\mathbf{v}}_y\), with magnitudes of}{\vec{\mathbf{v}}_x = \mathbf{v} \cos \theta, \, \vec{\mathbf{v}}_y = \mathbf{v} \sin \theta}
+		\peqn{Components}{A two-dimensional vector \(\vb{v}\) can be broken down into components \(v_x\) and \(v_y\), with magnitudes of}{v_x = \abs{\vb{v}} \cos \theta, \ v_y = \abs{\vb{v}} \sin \theta}
 		
 		\peqn{Magnitude of Vectors}{
-		The magnitude of a vector \(\vec{\mathbf{v}}\) with components \(\vec{\mathbf{v}}_x\) and \(\vec{\mathbf{v}}_y\) is given by}{\left|\vec{\mathbf{v}}\right| = \sqrt{\left|\vec{\mathbf{v}}_x\right|^2 + \left|\vec{\mathbf{v}}_y\right|^2}}
+		The magnitude of a vector \(\vb{v}\) with components \(v_x\) and \(v_y\) is given by}{\left|\vb{v}\right| = \sqrt{v_x^2 + v_y^2}}
 	
 		\begin{center}
 			\begin{tikzpicture}
-				\draw [line width=0.5mm, -latex] (0,0) -- (2,2) node[anchor=south east, pos=0.5]{\(\vec{\mathbf{v}}\)};
-				\draw [line width=0.25mm, dashed, -latex] (0,0) -- (2,0) node[anchor=north, pos=0.5] {\(\vec{\mathbf{v}}_x\)};
-				\draw [line width=0.25mm, dashed, -latex] (0,0) -- (0,2) node[anchor=east, pos=0.5] {\(\vec{\mathbf{v}}_y\)};
+				\draw [line width=0.5mm, -latex] (0,0) -- (2,2) node[anchor=south east, pos=0.5]{\(\vb{v}\)};
+				\draw [line width=0.25mm, dashed, -latex] (0,0) -- (2,0) node[anchor=north, pos=0.5] {\(v_x\)};
+				\draw [line width=0.25mm, dashed, -latex] (0,0) -- (0,2) node[anchor=east, pos=0.5] {\(v_y\)};
 				\draw (0.5,0) arc (0:45:0.5) node[pos=0.5, anchor=west] {\(\theta\)};
 			\end{tikzpicture}
 		\end{center}
@@ -87,11 +87,11 @@
 		Observer that when you add the two components together, they form the vector itself.
 		\begin{center}
 			\begin{tikzpicture}
-				\draw [line width=0.5mm, -latex] (0,0) -- (1,2) node[anchor=south east, pos=0.5] {\(\vec{\mathbf{u}}\)};
-				\draw [line width=0.2mm, dotted, -latex] (2,-3) -- (3,-1) node[anchor=north west, pos=0.5] {translated \(\vec{\mathbf{u}}\)};
-				\draw [line width=0.5mm, -latex] (0,0) -- (2,-3) node[anchor=north east, pos=0.5] {\(\vec{\mathbf{v}}\)};
-				\draw [line width=0.2mm, dotted, -latex] (1,2) -- (3,-1) node[anchor=south west, pos=0.5] {translated \(\vec{\mathbf{v}}\)};
-				\draw [line width=0.5mm, ->>] (0,0) -- (1.5,-0.5) node[anchor=north] {\(\vec{\mathbf{u}} + \vec{\mathbf{v}}\)};
+				\draw [line width=0.5mm, -latex] (0,0) -- (1,2) node[anchor=south east, pos=0.5] {\(\vb{u}\)};
+				\draw [line width=0.2mm, dotted, -latex] (2,-3) -- (3,-1) node[anchor=north west, pos=0.5] {translated \(\vb{u}\)};
+				\draw [line width=0.5mm, -latex] (0,0) -- (2,-3) node[anchor=north east, pos=0.5] {\(\vb{v}\)};
+				\draw [line width=0.2mm, dotted, -latex] (1,2) -- (3,-1) node[anchor=south west, pos=0.5] {translated \(\vb{v}\)};
+				\draw [line width=0.5mm, ->>] (0,0) -- (1.5,-0.5) node[anchor=north] {\(\vb{u} + \vb{v}\)};
 				\draw [line width=0.5mm] (1.5,-0.5) -- (3,-1);
 			\end{tikzpicture}
 			\begin{framed}
