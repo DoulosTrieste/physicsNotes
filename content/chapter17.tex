@@ -28,16 +28,16 @@
 	In physics we mostly use conventional current. This document will do likewise.
 
 	\subsection{Electromotive Force and Potential Difference}
-	\pdef{Electromotive Force}{Electromotive force (e.m.f.) is the work done by a source in driving unit charge around a complete circuit. \[E = \frac{W}{Q}\] The SI unit of electromotive force is volt [\si{\volt}].} 
+	\pdef{Electromotive Force}{Electromotive force (e.m.f.) is the work done by a source in driving unit charge around a complete circuit. \[\varepsilon = \frac{W}{Q}\] The SI unit of electromotive force is volt [\si{\volt}].} 
 	
 	\peqn{Electromotive Forces in Series}{If multiple electromotive force sources are arranged in series
 	\begin{center}
 		\begin{circuitikz}
-			\draw (0,0) to[battery1, v=\(E_1\)] (1,0) to[battery1, v=\(E_2\)] (2,0) to[open] (3,0) to[battery1, v=\(E_n\)] (4,0);
+			\draw (0,0) to[battery1, v=\(\varepsilon_1\)] (1,0) to[battery1, v=\(\varepsilon_2\)] (2,0) to[open] (3,0) to[battery1, v=\(\varepsilon_n\)] (4,0);
 			\draw [dashed] (2,0) -- (3,0);
 		\end{circuitikz}
 	\end{center}
-	then the net electromotive force is}{E_{\mathrm{net}} = E_1 + E_2 + \cdots + E_n}
+	then the net electromotive force is}{\varepsilon_{\mathrm{net}} = \varepsilon_1 + \varepsilon_2 + \cdots + \varepsilon_n}
 	
 	
 	\pdef{Potential Difference}{The potential difference (p.d.) (or voltage) across a component in a circuit as the work done to drive unit charge through the component. \[V = \frac{W}{Q}\] The SI unit of potential difference is volt [\si{\volt}].}
