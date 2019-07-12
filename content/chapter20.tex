@@ -100,7 +100,32 @@
 		\end{itemize}
 		\item \textbf{Interaction with Field Lines} \begin{itemize}
 			\item Hard magnetic materials do not allow magnetic fields to pass through it as easily as soft magnetic materials.
-			\item Soft magnetic materials allow magnetic fields to pass through it with ease.
+			\item Soft magnetic materials allow magnetic fields to pass through with ease.
 		\end{itemize}
 	\end{itemize}
+	\textbf{Extension:} The hardness of a magnetic material is characterised by the ``wideness'' of its hysteresis curve, the wider it is, the softer the magnetic material and vice versa.
+	\begin{figure}[H]
+		\centering
+		\begin{tikzpicture}
+			\begin{axis}[very thick,
+						 samples = 100,
+						 xlabel = H,
+						 ylabel = B,
+						 xmin = -7,
+						 xmax = 7,
+						 ymin = -4,
+						 ymax = 4,
+						 axis x line = middle,
+						 axis y line = middle,
+						 ticks = none]
+				\addplot[dashed] plot (\x, 2.5);
+				\addplot[dashed] plot (\x,-2.5);
+				\addplot[red, name path=A] plot (0.75*\x, {5/(1 + exp(-1.7*\x+1.5))-2.5});
+				\addplot[red, name path=B] plot (0.75*\x, {5/(1 + exp(-1.7*\x-1.5))-2.5});
+				\addplot[blue] plot (1.25*\x, {5/(1 + exp(-1.7*\x+1.5))-2.5});
+				\addplot[blue] plot (1.25*\x, {5/(1 + exp(-1.7*\x-1.5))-2.5});
+			\end{axis}
+		\end{tikzpicture}
+	\end{figure}
+	The material with the red hysteresis curve is a harder magnetic material than the one with the blue hysteresis curve.
 \end{document}
