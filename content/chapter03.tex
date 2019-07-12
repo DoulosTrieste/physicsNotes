@@ -25,7 +25,6 @@
 			
 		\subsubsection{Unbalanced System}
 		If the net force on a body is not zero, the object is not in translational equilibrium, and that means its velocity is changing.
-			
 		
 		\subsection{Types of Forces}
 		It is not sufficient to just describe forces as ``push'' and ``pull'' forces. Different names for forces are designated for different contexts. In this syllabus, only friction is required, but I will add common forces as well. Refer to chapter 4 for weight.
@@ -70,7 +69,11 @@
 			\subsubsection{Centripetal Force}
 			\pdef{Centripetal Force}{\textit{(It's not really in syllabus but you need to know this is a thing.)} A centripetal force accelerates a body by changing the direction of the body’s velocity without changing the body’s speed.}
 			
-			This force arises in uniform circular motion. Centripetal force ``pulls'' the object back to the centre, allowing it to constantly change direction. Centripetal force can be the force of a string pulling a rotating object or the gravitational force acting on a planet orbiting around a star.
+			This force arises in uniform circular motion. Centripetal force ``pulls'' the object back to the centre, allowing it to constantly change direction. Centripetal force is a net force, that is to say it is the vector sum of different forces acting on the body.
+
+			For example, in a swinging mass, the vector sum of its weight \(mg\) and the tension of the string \(T\) is the centripetal force \(F_C\).
+
+			Furthermore, centripetal force is proportional to its tangential velocity squared \(v^2\)and inversely proportional to the radius \(r\) of the circle of motion. 
 			\begin{center}
 				\begin{tikzpicture}
 				\draw[dashed] (0,0) circle (3cm);
@@ -78,11 +81,11 @@
 				\draw[line width=0.5mm] ({3*sin{30}}, {3*cos{30}}) -- (0,0);
 				\fill (0,0) circle (0.5mm);
 				\fill ({3*sin{30}}, {3*cos{30}}) circle (2mm);
-				\draw[line width=0.25mm, -stealth] ({3*sin{30}}, {3*cos{30}}) -- ++(330:1.5) node[pos=0.5, anchor=south west]{\(v_\mathrm{tangential}\)};
+				\draw[line width=0.25mm, -stealth] ({3*sin{30}}, {3*cos{30}}) -- ++(330:1.5) node[pos=0.5, anchor=south west]{\(v\)};
 				\end{tikzpicture}
 			\end{center}
 		
-			\[F_C = \frac{mv_\mathrm{tangential}^2}{r} \]
+			\[F_C = \frac{mv^2}{r} \]
 			
-			The magnitude of \(v_\mathrm{tangential}\) stays constant, but the direction is constantly changing. That means the object is accelerating. This acceleration is called centripetal acceleration.
+			The magnitude of \(v\) stays constant, but the direction is constantly changing. That means the object is accelerating. This acceleration is called centripetal acceleration, equal to \(\frac{v^2}{r}\).
 \end{document}
